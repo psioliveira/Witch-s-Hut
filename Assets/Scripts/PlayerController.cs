@@ -1,4 +1,5 @@
 using PlayerControl;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,7 +12,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float maxSpeed = 30;
     [SerializeField] private float speed = 0;
     private Vector3 rawInput;
-    private bool move;
+
+
+    [SerializeField] private float dashSpeed = 15f;
+    [SerializeField] private float dashLength = .3f;
+    [SerializeField] private bool isDashing = false;
+    [SerializeField] private bool hasDashed = false;
+    [SerializeField] private Vector3 playerDirection;
+
+    [SerializeField] private bool _canDash = true;
+
+
 
     private void Awake()
     {
@@ -31,14 +42,26 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        PlayerMovement();
+        if (!hasDashed)
+            _canDash = true;
 
+    }
+
+    private void FixedUpdate()
+    {
+        if (_canDash && isDashing) StartCoroutine(Dash());
+        if (!isDashing)
+        {
+            PlayerMovement();
+            
+        }
     }
 
 
     public void OnDash(InputAction.CallbackContext ctx)
     {
-
+        if (!isDashing)
+            isDashing = ctx.performed;
     }
     public void OnAttack(InputAction.CallbackContext ctx)
     {
@@ -49,15 +72,16 @@ public class PlayerController : MonoBehaviour
     public void OnMovement(InputAction.CallbackContext ctx)
     {
         rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);
-        move = true;
+
     }
 
     private void PlayerMovement()
     {
         if (rawInput.x != 0 || rawInput.z != 0)
         {
-            speed = speed > maxSpeed ? maxSpeed : speed += acceleration * Time.deltaTime;
-            transform.position += rawInput * speed * Time.deltaTime;
+            playerDirection = rawInput;
+            speed = speed > maxSpeed ? maxSpeed : speed += acceleration * Time.fixedDeltaTime;
+            transform.position += rawInput * speed * Time.fixedDeltaTime;
         }
         else
         {
@@ -65,4 +89,30 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+
+
+
+    IEnumerator Dash()
+    {
+        float dashStartTime = 0;
+        hasDashed = true;
+        isDashing = true;
+
+       
+        while (dashStartTime < dashLength)
+        {
+            transform.position += playerDirection.normalized * dashSpeed;
+            yield return null;
+            dashStartTime += Time.fixedDeltaTime;
+        }
+
+        isDashing = false;
+        hasDashed = false;
+    }
+
+
+
+
+
+
 }
