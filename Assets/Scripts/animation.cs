@@ -3,10 +3,8 @@ using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Rigidbody))]
-public class animation : MonoBehaviour
+public class Animation : MonoBehaviour
 {
-
-
     [SerializeField]
     private Animator _playerAnimator;
 
