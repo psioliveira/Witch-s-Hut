@@ -10,8 +10,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float acceleration = 0.6f;
     [SerializeField] private float maxSpeed = 30;
     [SerializeField] private float speed = 0;
-
-
+    private Vector3 rawInput;
+    private bool move;
 
     private void Awake()
     {
@@ -21,18 +21,19 @@ public class PlayerController : MonoBehaviour
 
     private void OnEnable()
     {
+        playerControl.Enable();
     }
 
     private void OnDisable()
     {
         playerControl.Disable();
     }
-    private void Start()
+
+    private void Update()
     {
-        speed = speed < 0 ? 0 : speed -= acceleration * Time.deltaTime;
+        PlayerMovement();
 
     }
-
 
 
     public void OnDash(InputAction.CallbackContext ctx)
@@ -47,14 +48,21 @@ public class PlayerController : MonoBehaviour
 
     public void OnMovement(InputAction.CallbackContext ctx)
     {
-
-        speed = speed > maxSpeed ? maxSpeed : speed += acceleration * Time.deltaTime;
-
-        transform.position = new Vector3(
-        transform.position.x + ctx.ReadValue<Vector2>().normalized.x * speed * Time.deltaTime,
-        transform.position.y,
-        transform.position.z + ctx.ReadValue<Vector2>().normalized.y * speed * Time.deltaTime);
+        rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);
+        move = true;
     }
 
+    private void PlayerMovement()
+    {
+        if (rawInput.x != 0 || rawInput.z != 0)
+        {
+            speed = speed > maxSpeed ? maxSpeed : speed += acceleration * Time.deltaTime;
+            transform.position += rawInput * speed * Time.deltaTime;
+        }
+        else
+        {
+            speed = 0;
+        }
 
+    }
 }
