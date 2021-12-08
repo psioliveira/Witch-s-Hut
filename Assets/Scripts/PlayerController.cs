@@ -22,7 +22,10 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private bool _canDash = true;
 
-
+    public Vector3 GetRawInput()
+    {
+        return rawInput; 
+    }
 
     private void Awake()
     {
