@@ -2,11 +2,10 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-[RequireComponent(typeof(Rigidbody))]
 public class Animation : MonoBehaviour
 {
-    [SerializeField] private Animator playerAnimator;
-    [SerializeField] private PlayerController playerController;
+    private Animator playerAnimator;
+    private PlayerController playerController;
 
 
     void Start()
@@ -28,5 +27,10 @@ public class Animation : MonoBehaviour
         playerAnimator.SetFloat("Velocity left right", playerController.GetRawInput().x);
     }
 
+
+    public void AttackAnimation()
+    {
+        playerAnimator.SetTrigger("Attack");
+    }
 
 }

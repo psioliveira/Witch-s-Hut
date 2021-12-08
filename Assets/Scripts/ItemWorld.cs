@@ -13,13 +13,14 @@ public class ItemWorld : MonoBehaviour
         itemWorld.SetItem(item);
         return itemWorld;
     }
-
+    
     [SerializeField]private Item item;
     private SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        
     }
     public void SetItem(Item item)
     {
