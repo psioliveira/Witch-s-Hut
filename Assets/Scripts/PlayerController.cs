@@ -7,7 +7,8 @@ public class PlayerController : MonoBehaviour
 {
 
     private PlayerControls playerControl;
-  [SerializeField] private float playerSpeed = 30;
+
+    [SerializeField] private float playerSpeed = 30;
     private Vector3 rawInput;
 
 
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour
 
     private bool attackTriggered;
     [SerializeField] private Transform attackPoint;
+    private Vector3 attacklocalPosition;
     [SerializeField] private LayerMask enemyLayerMask;
     [SerializeField] private float attackRange;
     [SerializeField] private int attackDamage;
@@ -38,6 +40,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         playerControl = new PlayerControls();
+        attacklocalPosition = attackPoint.localPosition;
     }
 
 
@@ -63,13 +66,12 @@ public class PlayerController : MonoBehaviour
         if (unableToMove)
         {
             if (_canDash && dashTriggered && !attackTriggered) StartCoroutine(Dash());
-            if (unableToMove && attackTriggered) Attack();
+            if (unableToMove && attackTriggered) StartCoroutine(Attack());
         }
 
         if (!unableToMove)
         {
             PlayerMovement();
-
         }
     }
 
@@ -78,16 +80,16 @@ public class PlayerController : MonoBehaviour
     {
         if (!unableToMove && !dashTriggered)
         {
-            unableToMove = ctx.performed;
-            dashTriggered = ctx.performed;
+            unableToMove = true;
+            dashTriggered = true;
         }
     }
     public void OnAttack(InputAction.CallbackContext ctx)
     {
         if (!unableToMove && !attackTriggered)
         {
-            unableToMove = ctx.performed;
-            attackTriggered = ctx.performed;
+            unableToMove = true;
+            attackTriggered = true;
         }
     }
 
@@ -95,44 +97,28 @@ public class PlayerController : MonoBehaviour
     public void OnMovement(InputAction.CallbackContext ctx)
     {
         rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);
-
     }
 
     private void PlayerMovement()
     {
-      /*  if (rawInput.x != 0 || rawInput.z != 0)
-        {
-            playerDirection = rawInput;
-            speed = speed > maxSpeed ? maxSpeed : speed += acceleration * Time.fixedDeltaTime;
-            transform.position += rawInput * speed * Time.fixedDeltaTime;
-            attackPoint.localPosition = new Vector3(rawInput.x, attackPoint.localPosition.y, attackPoint.localPosition.z);
-        }
-        else
-        {
-            speed = 0;
-        }
-*/
+
 
         groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
         {
             playerVelocity.y = 0f;
         }
+        if (rawInput.x != 0 || rawInput.z != 0)
+        {
+            playerDirection = rawInput;
+            controller.Move(rawInput * Time.fixedDeltaTime * playerSpeed);
+          //  attackPoint.localPosition = new Vector3(rawInput.x, attackPoint.localPosition.y, attackPoint.localPosition.z);
+        }
 
-        
-        controller.Move(rawInput * Time.fixedDeltaTime * playerSpeed);
-
-        
 
         playerVelocity.y += gravityValue * Time.fixedDeltaTime;
         controller.Move(playerVelocity * Time.fixedDeltaTime);
     }
-
-
-
-
-
-
 
 
 
@@ -145,29 +131,34 @@ public class PlayerController : MonoBehaviour
 
         while (dashStartTime < dashLength)
         {
-            transform.position += playerDirection.normalized * dashSpeed;
+            controller.Move(playerDirection.normalized * dashSpeed * Time.fixedDeltaTime);
+
             yield return null;
             dashStartTime += Time.fixedDeltaTime;
         }
         dashTriggered = false;
         unableToMove = false;
+        yield return new WaitForSeconds(3);
         hasDashed = false;
     }
 
-    private void Attack()
+    IEnumerator Attack()
     {
-        GetComponent<Animation>().AttackAnimation();
+        GetComponent<PlayerAnimation>().AttackAnimation();
         Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayerMask);
 
         foreach (Collider enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
         }
-
+        
         attackTriggered = false;
         unableToMove = false;
         hasDashed = false;
+        yield return null;
     }
+
+
 
     private void OnDrawGizmosSelected()
     {

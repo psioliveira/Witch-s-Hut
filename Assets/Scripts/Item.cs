@@ -39,11 +39,13 @@ public class Item
             default:
             case ItemType.Crystal:
             case ItemType.BatWing:
+
+            case ItemType.Bone:
+            case ItemType.Fur:
+                return true;
+
             case ItemType.Blood:
             case ItemType.Venom:
-            case ItemType.Bone:
-                return true;
-            case ItemType.Fur:
                 return false;
         }
 

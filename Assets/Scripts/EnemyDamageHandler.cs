@@ -1,19 +1,24 @@
 
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyDamageHandler : MonoBehaviour
 {
+    [SerializeField] private List<Item> itemList;
     private int maxHealth = 100;
     private int currentHealth;
-    [SerializeField] private Animator EnemyAnimator;
+    [SerializeField] private Animator enemyAnimator;
+    [SerializeField] private float timeLeft;
+    private bool dead = false;
+
     void Start()
     {
 
         currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
 
     }
@@ -24,12 +29,14 @@ public class EnemyDamageHandler : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            Die();
+            currentHealth = 0;
+            if (!dead)
+                Die();
 
         }
         else
         {
-            EnemyAnimator.SetTrigger("Hurt");
+            enemyAnimator.SetTrigger("Hurt");
             //hurt animation
         }
 
@@ -37,7 +44,12 @@ public class EnemyDamageHandler : MonoBehaviour
 
     private void Die()
     {
-        EnemyAnimator.SetTrigger("Die");
+
+        enemyAnimator.SetTrigger("Die");
+        dead = true;
+
+        ItemWorld.SpawnItemWorld(transform.position, itemList[UnityEngine.Random.Range(0, itemList.Count)]);
+
 
     }
 

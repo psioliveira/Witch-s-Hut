@@ -13,14 +13,14 @@ public class ItemWorld : MonoBehaviour
         itemWorld.SetItem(item);
         return itemWorld;
     }
-    
-    [SerializeField]private Item item;
+
+    [SerializeField] private Item item;
     private SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        
+
     }
     public void SetItem(Item item)
     {
@@ -38,5 +38,13 @@ public class ItemWorld : MonoBehaviour
     public void DestroySelf()
     {
         Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform.gameObject.tag != "Map" )
+        {
+            Physics.IgnoreCollision(GetComponent<Collider>(), collision.collider,true);
+        }
     }
 }
