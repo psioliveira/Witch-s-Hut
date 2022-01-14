@@ -21,29 +21,27 @@ public class PlayerController : MonoBehaviour
     private bool dashTriggered;
 
     private bool attackTriggered;
-    [SerializeField] private Transform attackPoint;
-    private Vector3 attacklocalPosition;
-    [SerializeField] private LayerMask enemyLayerMask;
-    [SerializeField] private float attackRange;
-    [SerializeField] private int attackDamage;
 
+    [SerializeField] private int attackDamage = 10;
+
+
+    private Animator playerAnimator;
     [SerializeField] private CharacterController controller;
     private bool groundedPlayer;
     private float gravityValue = -9.81f;
     private Vector3 playerVelocity;
 
-    public Vector3 GetRawInput()
-    {
-        return rawInput;
-    }
+
 
     private void Awake()
     {
         playerControl = new PlayerControls();
-        attacklocalPosition = attackPoint.localPosition;
     }
 
-
+    void Start()
+    {
+        playerAnimator = GetComponent<Animator>();
+    }
     private void OnEnable()
     {
         playerControl.Enable();
@@ -58,16 +56,12 @@ public class PlayerController : MonoBehaviour
     {
         if (!hasDashed)
             _canDash = true;
-
+        UpdateAnimatorVariables();
     }
 
     private void FixedUpdate()
     {
-        if (unableToMove)
-        {
-            if (_canDash && dashTriggered && !attackTriggered) StartCoroutine(Dash());
-            if (unableToMove && attackTriggered) StartCoroutine(Attack());
-        }
+      
 
         if (!unableToMove)
         {
@@ -76,20 +70,26 @@ public class PlayerController : MonoBehaviour
     }
 
 
+
+    private void UpdateAnimatorVariables()
+    {
+        if (rawInput != Vector3.zero)
+        {
+            playerAnimator.SetFloat("Velocity up down", rawInput.z);
+            playerAnimator.SetFloat("Velocity left right", rawInput.x);
+        }
+
+    }
     public void OnDash(InputAction.CallbackContext ctx)
     {
-        if (!unableToMove && !dashTriggered)
-        {
-            unableToMove = true;
-            dashTriggered = true;
-        }
+        if (_canDash && !unableToMove && !attackTriggered) StartCoroutine(Dash());
+     
     }
     public void OnAttack(InputAction.CallbackContext ctx)
     {
-        if (!unableToMove && !attackTriggered)
+        if (!unableToMove && !dashTriggered)
         {
-            unableToMove = true;
-            attackTriggered = true;
+            StartCoroutine(Attack());
         }
     }
 
@@ -101,8 +101,6 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerMovement()
     {
-
-
         groundedPlayer = controller.isGrounded;
         if (groundedPlayer && playerVelocity.y < 0)
         {
@@ -112,8 +110,10 @@ public class PlayerController : MonoBehaviour
         {
             playerDirection = rawInput;
             controller.Move(rawInput * Time.fixedDeltaTime * playerSpeed);
-          //  attackPoint.localPosition = new Vector3(rawInput.x, attackPoint.localPosition.y, attackPoint.localPosition.z);
+            if (!unableToMove) playerAnimator.SetBool("Moving", true);
+            else { playerAnimator.SetBool("Moving", false); }
         }
+        else { playerAnimator.SetBool("Moving", false); }
 
 
         playerVelocity.y += gravityValue * Time.fixedDeltaTime;
@@ -127,8 +127,9 @@ public class PlayerController : MonoBehaviour
         float dashStartTime = 0;
         hasDashed = true;
         unableToMove = true;
+        dashTriggered = true;
 
-
+      //  playerAnimator.SetBool("Dash",true);
         while (dashStartTime < dashLength)
         {
             controller.Move(playerDirection.normalized * dashSpeed * Time.fixedDeltaTime);
@@ -136,34 +137,31 @@ public class PlayerController : MonoBehaviour
             yield return null;
             dashStartTime += Time.fixedDeltaTime;
         }
+        yield return null;
+        //  playerAnimator.SetBool("Dash", true);
+        yield return new WaitForSeconds(dashLength);
         dashTriggered = false;
-        unableToMove = false;
-        yield return new WaitForSeconds(3);
-        hasDashed = false;
-    }
-
-    IEnumerator Attack()
-    {
-        GetComponent<PlayerAnimation>().AttackAnimation();
-        Collider[] hitEnemies = Physics.OverlapSphere(attackPoint.position, attackRange, enemyLayerMask);
-
-        foreach (Collider enemy in hitEnemies)
-        {
-            enemy.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
-        }
-        
-        attackTriggered = false;
         unableToMove = false;
         hasDashed = false;
         yield return null;
     }
 
-
-
-    private void OnDrawGizmosSelected()
+    private IEnumerator Attack()
     {
-        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        unableToMove = true;
+        attackTriggered = true;
+        playerAnimator.SetTrigger("Attack");
+        yield return null;
+
+        attackTriggered = false;
+        
+        yield return new WaitForSeconds(.3f);
+        hasDashed = false;
+        unableToMove = false;
+        yield return null;
+
     }
+
 
 
 }
