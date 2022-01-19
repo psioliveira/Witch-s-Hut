@@ -163,6 +163,11 @@ public class PlayerController : MonoBehaviour
 
     }
 
-
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Enemy")
+        {
+            other.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
+        }
+    }
 }
