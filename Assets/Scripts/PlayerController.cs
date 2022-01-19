@@ -56,9 +56,14 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (PauseManage.paused)
+        {
+            return;
+        }
         if (!hasDashed)
             _canDash = true;
 
+        
     }
 
     private void FixedUpdate()
