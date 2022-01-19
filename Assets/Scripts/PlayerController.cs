@@ -80,12 +80,12 @@ public class PlayerController : MonoBehaviour
     }
     public void OnDash(InputAction.CallbackContext ctx)
     {
-        if (_canDash && !unableToMove && !attackTriggered) StartCoroutine(Dash());
+        if (ctx.started && _canDash && !unableToMove && !attackTriggered) StartCoroutine(Dash());
      
     }
     public void OnAttack(InputAction.CallbackContext ctx)
     {
-        if (!unableToMove && !dashTriggered)
+        if (ctx.started && !unableToMove && !dashTriggered)
         {
             StartCoroutine(Attack());
         }
