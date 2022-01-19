@@ -63,8 +63,6 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-      
-
         if (!unableToMove)
         {
             PlayerMovement();
@@ -73,7 +71,7 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimatorVariables()
     {
-        if (rawInput != Vector3.zero)
+        if (rawInput != Vector3.zero && !unableToMove)
         {
             playerAnimator.SetFloat("Velocity up down", rawInput.z);
             playerAnimator.SetFloat("Velocity left right", rawInput.x);
@@ -96,7 +94,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnMovement(InputAction.CallbackContext ctx)
     {
-        if (!PauseManage.paused)
+        if (!PauseManage.paused )
         {
             rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);   
         }
@@ -132,8 +130,7 @@ public class PlayerController : MonoBehaviour
         hasDashed = true;
         unableToMove = true;
         dashTriggered = true;
-
-      //  playerAnimator.SetBool("Dash",true);
+        playerAnimator.SetBool("Dashing", hasDashed);
         while (dashStartTime < dashLength)
         {
             controller.Move(playerDirection.normalized * dashSpeed * Time.fixedDeltaTime);
@@ -142,11 +139,11 @@ public class PlayerController : MonoBehaviour
             dashStartTime += Time.fixedDeltaTime;
         }
         yield return null;
-        //  playerAnimator.SetBool("Dash", true);
-        yield return new WaitForSeconds(dashLength);
+        yield return new WaitForSeconds(0.001f);
         dashTriggered = false;
         unableToMove = false;
         hasDashed = false;
+        playerAnimator.SetBool("Dashing", hasDashed);
         yield return null;
     }
 

@@ -6,21 +6,21 @@ public class Inventory
 {
     public event EventHandler OnItemListChanged;
 
-    public List<Item> itemList;
+    public List<ItemInfo> itemList;
     public Inventory()
     {
-        itemList = new List<Item>();
+        itemList = new List<ItemInfo>();
     }
-    public void AddItem(Item item)
+    public void AddItem(ItemInfo item)
     {
-        if (item.IsStackable())
+        if (item.isStackable)
         {
             bool itemAlreadyInInventory = false;
-            foreach(Item i in itemList)
+            foreach (ItemInfo i in itemList)
             {
-                if(i.itemName == item.itemName)
+                if (i.itemName == item.itemName)
                 {
-                    i.Amount += item.Amount;
+                    i.amount += item.amount;
                     itemAlreadyInInventory = true;
                 }
             }
@@ -40,7 +40,7 @@ public class Inventory
 
 
 
-    public List<Item> GetItemList()
+    public List<ItemInfo> GetItemList()
     {
         return itemList;
     }

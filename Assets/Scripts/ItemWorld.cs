@@ -2,21 +2,21 @@ using UnityEngine;
 
 public class ItemWorld : MonoBehaviour
 {
-    private Item item;
+    private ItemInfo itemInfo;
     private SpriteRenderer spriteRenderer;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    public void SetItem(Item item)
+    public void SetItem(ItemInfo itemInfo)
     {
-        this.item = item;
-        spriteRenderer.sprite = item.GetSprite();
+        this.itemInfo = itemInfo;
+        spriteRenderer.sprite = itemInfo.itemSprite;
     }
-    public Item GetItem()
+    public ItemInfo GetItem()
     {
-        return item;
+        return itemInfo;
     }
 
     public void DestroySelf()

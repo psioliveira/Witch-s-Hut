@@ -3,15 +3,16 @@ using UnityEngine;
 
 public class ItemSpawner : MonoBehaviour
 {
-    public ItemInfo item;
-    [SerializeField]private ItemWorld itemWorld;
+    [SerializeField] private ItemInfo itemInfo;
+    [SerializeField] private GameObject item;
+
 
     private void Start()
     {
-        Item i = new Item();
-        i.itemInfo = item;
-        Instantiate(itemWorld, transform.position, Quaternion.identity).
-                                    GetComponent<ItemWorld>().SetItem(i);
+        
+        Instantiate(item, transform.position, Quaternion.identity).
+            GetComponent<ItemWorld>().SetItem(itemInfo);
+        
         Destroy(gameObject);
     }
 }

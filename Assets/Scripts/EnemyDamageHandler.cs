@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyDamageHandler : MonoBehaviour
 {
-    [SerializeField] private List<Item> itemList;
+    [SerializeField] private List<ItemInfo> itemList;
     private int maxHealth = 100;
     private int currentHealth;
     [SerializeField] private Animator enemyAnimator;
@@ -49,7 +49,9 @@ public class EnemyDamageHandler : MonoBehaviour
         enemyAnimator.SetTrigger("Die");
         dead = true;
 
-        Instantiate(itemWorldPrefab, transform.position, Quaternion.identity).GetComponent<ItemWorld>().SetItem(itemList[UnityEngine.Random.Range(0, itemList.Count)]);
+        Instantiate(itemWorldPrefab, transform.position, Quaternion.identity).
+            GetComponent<ItemWorld>().
+            SetItem(itemList[UnityEngine.Random.Range(0, itemList.Count)]);
 
     }
 
