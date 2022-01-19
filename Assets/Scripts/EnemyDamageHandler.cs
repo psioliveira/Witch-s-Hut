@@ -11,6 +11,7 @@ public class EnemyDamageHandler : MonoBehaviour
     [SerializeField] private Animator enemyAnimator;
     [SerializeField] private float timeLeft;
     private bool dead = false;
+    [SerializeField] private ItemWorld itemWorldPrefab;
 
     void Start()
     {
@@ -48,8 +49,7 @@ public class EnemyDamageHandler : MonoBehaviour
         enemyAnimator.SetTrigger("Die");
         dead = true;
 
-        ItemWorld.SpawnItemWorld(transform.position, itemList[UnityEngine.Random.Range(0, itemList.Count)]);
-
+        Instantiate(itemWorldPrefab, transform.position, Quaternion.identity).GetComponent<ItemWorld>().SetItem(itemList[UnityEngine.Random.Range(0, itemList.Count)]);
 
     }
 
