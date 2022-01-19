@@ -57,6 +57,8 @@ public class PlayerController : MonoBehaviour
         if (!hasDashed)
             _canDash = true;
         UpdateAnimatorVariables();
+
+
     }
 
     private void FixedUpdate()
@@ -80,12 +82,12 @@ public class PlayerController : MonoBehaviour
     }
     public void OnDash(InputAction.CallbackContext ctx)
     {
-        if (ctx.started && _canDash && !unableToMove && !attackTriggered) StartCoroutine(Dash());
+        if (!PauseManage.paused && ctx.started && _canDash && !unableToMove && !attackTriggered) StartCoroutine(Dash());
      
     }
     public void OnAttack(InputAction.CallbackContext ctx)
     {
-        if (ctx.started && !unableToMove && !dashTriggered)
+        if (!PauseManage.paused && ctx.started && !unableToMove && !dashTriggered)
         {
             StartCoroutine(Attack());
         }
@@ -94,7 +96,11 @@ public class PlayerController : MonoBehaviour
 
     public void OnMovement(InputAction.CallbackContext ctx)
     {
-        rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);
+        if (!PauseManage.paused)
+        {
+            rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);   
+        }
+        
     }
 
     private void PlayerMovement()
