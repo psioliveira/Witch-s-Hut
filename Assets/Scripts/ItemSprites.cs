@@ -11,14 +11,6 @@ public class ItemSprites : MonoBehaviour
         Instance = this;
     }
 
-    public Transform itemWorldPrefab;
-
-    public Sprite crystal;
-    public Sprite fur;
-    public Sprite batWing;
-    public Sprite blood;
-    public Sprite venom;
-    public Sprite Bone;
-
+    
 
 }

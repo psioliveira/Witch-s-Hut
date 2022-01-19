@@ -1,54 +1,34 @@
 ﻿using System;
 using UnityEngine;
 
-[Serializable]
-public class Item
+
+public class Item : MonoBehaviour
 {
-    public enum ItemType
+    public ItemInfo itemInfo;
+
+    public string itemName;
+    public bool isStackable;
+    public Sprite itemSprite;
+
+    public int Amount = 1;
+
+    private void Start()
     {
-        Crystal,
-        Fur,
-        BatWing,
-        Blood,
-        Venom,
-        Bone
+        itemName = itemInfo.itemName;
+        isStackable = itemInfo.isStackable;
+        itemSprite = itemInfo.itemSprite;
     }
 
-    public ItemType itemType;
-    public int Amount = 1;
 
     public Sprite GetSprite()
     {
-        switch (itemType)
-        {
-            default:
-            case ItemType.Crystal: return ItemSprites.Instance.crystal;
-            case ItemType.Fur: return ItemSprites.Instance.fur;
-            case ItemType.BatWing: return ItemSprites.Instance.batWing;
-            case ItemType.Blood: return ItemSprites.Instance.blood;
-            case ItemType.Venom: return ItemSprites.Instance.venom;
-            case ItemType.Bone: return ItemSprites.Instance.Bone;
-        }
+        return itemSprite;
     }
 
 
     public bool IsStackable()
     {
-        switch (itemType)
-        {
-            default:
-            case ItemType.Crystal:
-            case ItemType.BatWing:
-
-            case ItemType.Bone:
-            case ItemType.Fur:
-                return true;
-
-            case ItemType.Blood:
-            case ItemType.Venom:
-                return false;
-        }
-
+        return isStackable;
     }
 
 

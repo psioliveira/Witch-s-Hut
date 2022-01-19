@@ -69,8 +69,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-
     private void UpdateAnimatorVariables()
     {
         if (rawInput != Vector3.zero)

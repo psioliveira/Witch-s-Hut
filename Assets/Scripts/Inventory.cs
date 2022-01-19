@@ -18,7 +18,7 @@ public class Inventory
             bool itemAlreadyInInventory = false;
             foreach(Item i in itemList)
             {
-                if(i.itemType == item.itemType)
+                if(i.itemName == item.itemName)
                 {
                     i.Amount += item.Amount;
                     itemAlreadyInInventory = true;
