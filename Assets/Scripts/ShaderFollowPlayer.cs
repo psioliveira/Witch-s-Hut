@@ -8,17 +8,17 @@ public class ShaderFollowPlayer : MonoBehaviour
     public static int sizeID = Shader.PropertyToID("_Size");
 
     public Material WallMaterial;
-    public Camera camera;
     public LayerMask mask;
+    [SerializeField] private float maskSize;
 
     void Update()
     {
-        Vector3 dir = camera.transform.position - transform.position;
+        Vector3 dir = Camera.main.transform.position - transform.position;
         Ray ray = new Ray(transform.position, dir.normalized);
 
         if (Physics.Raycast(ray, 3000, mask))
         {
-            WallMaterial.SetFloat(sizeID, 1);
+            WallMaterial.SetFloat(sizeID, maskSize);
 
         }
         else

@@ -1,21 +1,18 @@
-
-using System;
+﻿using System;
 using System.Collections.Generic;
+
 using UnityEngine;
 
-public class EnemyDamageHandler : MonoBehaviour
+class PlayerDamageHandler : MonoBehaviour
 {
-    [SerializeField] private List<ItemInfo> itemList;
     private int maxHealth = 100;
     private int currentHealth;
-    [SerializeField] private Animator enemyAnimator;
+    [SerializeField] private Animator playerAnimator;
     private bool dead = false;
-    [SerializeField] private ItemWorld itemWorldPrefab;
 
     void Start()
     {
         currentHealth = maxHealth;
-        
     }
 
 
@@ -33,21 +30,19 @@ public class EnemyDamageHandler : MonoBehaviour
 
         else
         {
-            enemyAnimator.SetTrigger("Hurt");
-            //hurt animation
+            playerAnimator.SetTrigger("Hurt");
+          
         }
 
     }
 
     private void Die()
     {
-        enemyAnimator.SetBool("Die", true);
+        playerAnimator.SetBool("Die", true);
         dead = true;
 
-        Instantiate(itemWorldPrefab, transform.position, Quaternion.identity).
-            GetComponent<ItemWorld>().
-            SetItem(itemList[UnityEngine.Random.Range(0, itemList.Count)]);
-        GetComponent<SkeletonAI>().IsDead();
+        
+        GetComponent<PlayerController>().IsDead();
         this.GetComponent<Collider>().enabled = false;
         this.GetComponent<Rigidbody>().isKinematic = true;
     }

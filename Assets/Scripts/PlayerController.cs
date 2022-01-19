@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float playerSpeed = 30;
     private Vector3 rawInput;
-
+    private int health = 100;
 
     [SerializeField] private float dashSpeed = 15f;
     [SerializeField] private float dashLength = .3f;
@@ -30,8 +30,9 @@ public class PlayerController : MonoBehaviour
     private bool groundedPlayer;
     private float gravityValue = -9.81f;
     private Vector3 playerVelocity;
-
-
+    [SerializeField] private Vector3 attackPos;
+    [SerializeField] private float attackRadius;
+    private bool dead = false;
 
     private void Awake()
     {
@@ -54,7 +55,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if (!hasDashed)
+        if (!dead && !hasDashed)
             _canDash = true;
         UpdateAnimatorVariables();
 
@@ -63,7 +64,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!unableToMove)
+        if (!dead&&!unableToMove)
         {
             PlayerMovement();
         }
@@ -80,12 +81,12 @@ public class PlayerController : MonoBehaviour
     }
     public void OnDash(InputAction.CallbackContext ctx)
     {
-        if (!PauseManage.paused && ctx.started && _canDash && !unableToMove && !attackTriggered) StartCoroutine(Dash());
-     
+        if (!dead&& !PauseManage.paused && ctx.started && _canDash && !unableToMove && !attackTriggered) StartCoroutine(Dash());
+
     }
     public void OnAttack(InputAction.CallbackContext ctx)
     {
-        if (!PauseManage.paused && ctx.started && !unableToMove && !dashTriggered)
+        if (!dead && !PauseManage.paused && ctx.started && !unableToMove && !dashTriggered)
         {
             StartCoroutine(Attack());
         }
@@ -94,11 +95,11 @@ public class PlayerController : MonoBehaviour
 
     public void OnMovement(InputAction.CallbackContext ctx)
     {
-        if (!PauseManage.paused )
+        if (!dead && !PauseManage.paused)
         {
-            rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);   
+            rawInput = new Vector3(ctx.ReadValue<Vector2>().x, 0, ctx.ReadValue<Vector2>().y);
         }
-        
+
     }
 
     private void PlayerMovement()
@@ -111,6 +112,8 @@ public class PlayerController : MonoBehaviour
         if (rawInput.x != 0 || rawInput.z != 0)
         {
             playerDirection = rawInput;
+            attackPos = transform.position + rawInput;
+            attackPos = new Vector3(attackPos.x, transform.position.y / 2, attackPos.z);
             controller.Move(rawInput * Time.fixedDeltaTime * playerSpeed);
             if (!unableToMove) playerAnimator.SetBool("Moving", true);
             else { playerAnimator.SetBool("Moving", false); }
@@ -155,7 +158,16 @@ public class PlayerController : MonoBehaviour
         yield return null;
 
         attackTriggered = false;
-        
+        Collider[] hitColliders = Physics.OverlapSphere(attackPos, attackRadius);
+        foreach (var hitCollider in hitColliders)
+        {
+            if (hitCollider.tag == "Enemy")
+            {
+                hitCollider.transform.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
+            }
+
+        }
+
         yield return new WaitForSeconds(.3f);
         hasDashed = false;
         unableToMove = false;
@@ -163,11 +175,13 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void IsDead()
     {
-        if(other.tag == "Enemy")
-        {
-            other.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
-        }
+        dead = true;
+    }
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(attackPos, attackRadius);
     }
 }

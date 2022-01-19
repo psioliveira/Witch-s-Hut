@@ -1,0 +1,2496 @@
+fileFormatVersion: 2
+guid: b3f28739d14c03042a489ff085e06e89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7426034906020642835
+    second: skeleton_sword_0
+  - first:
+      213: -9021191497553427187
+    second: skeleton_sword_1
+  - first:
+      213: -4541913157383416615
+    second: skeleton_sword_2
+  - first:
+      213: -7586565668240829834
+    second: skeleton_sword_3
+  - first:
+      213: -5678152702295866444
+    second: skeleton_sword_4
+  - first:
+      213: 7336527661543623467
+    second: skeleton_sword_5
+  - first:
+      213: -5791319328664437658
+    second: skeleton_sword_6
+  - first:
+      213: -4318285278043964826
+    second: skeleton_sword_7
+  - first:
+      213: 5915866419416978352
+    second: skeleton_sword_8
+  - first:
+      213: -8761812507187070335
+    second: skeleton_sword_9
+  - first:
+      213: 9030330303994264389
+    second: skeleton_sword_10
+  - first:
+      213: 112257826030369897
+    second: skeleton_sword_11
+  - first:
+      213: -5041254544977969503
+    second: skeleton_sword_12
+  - first:
+      213: 2111371068132606723
+    second: skeleton_sword_13
+  - first:
+      213: 748661742247309686
+    second: skeleton_sword_14
+  - first:
+      213: -5451323150815072206
+    second: skeleton_sword_15
+  - first:
+      213: -933359081601313404
+    second: skeleton_sword_16
+  - first:
+      213: -4087589020157922012
+    second: skeleton_sword_17
+  - first:
+      213: -2740782008108700674
+    second: skeleton_sword_18
+  - first:
+      213: -428845620739696653
+    second: skeleton_sword_19
+  - first:
+      213: 8687434204063854426
+    second: skeleton_sword_20
+  - first:
+      213: -6923709515183902676
+    second: skeleton_sword_21
+  - first:
+      213: 5420333362991719036
+    second: skeleton_sword_22
+  - first:
+      213: -9202923114599854789
+    second: skeleton_sword_23
+  - first:
+      213: 1983671963530073391
+    second: skeleton_sword_24
+  - first:
+      213: -7005678119843529919
+    second: skeleton_sword_25
+  - first:
+      213: -6067135468353761944
+    second: skeleton_sword_26
+  - first:
+      213: 6360203811548561408
+    second: skeleton_sword_27
+  - first:
+      213: -852326524162964548
+    second: skeleton_sword_28
+  - first:
+      213: 6192848259876121375
+    second: skeleton_sword_29
+  - first:
+      213: 8798280659937087848
+    second: skeleton_sword_30
+  - first:
+      213: -4579325282801150310
+    second: skeleton_sword_31
+  - first:
+      213: -225733587493389075
+    second: skeleton_sword_32
+  - first:
+      213: -363653746733598778
+    second: skeleton_sword_33
+  - first:
+      213: -4501638843294485956
+    second: skeleton_sword_34
+  - first:
+      213: 963828038954363802
+    second: skeleton_sword_35
+  - first:
+      213: -3927957841670135229
+    second: skeleton_sword_36
+  - first:
+      213: -9108626205859583970
+    second: skeleton_sword_37
+  - first:
+      213: -5014157262072535664
+    second: skeleton_sword_38
+  - first:
+      213: 6872803572499117642
+    second: skeleton_sword_39
+  - first:
+      213: -4234554462677268021
+    second: skeleton_sword_40
+  - first:
+      213: 7189368020567499343
+    second: skeleton_sword_41
+  - first:
+      213: -7030442307528036020
+    second: skeleton_sword_42
+  - first:
+      213: -4183584344530491272
+    second: skeleton_sword_43
+  - first:
+      213: -1756747248613811075
+    second: skeleton_sword_44
+  - first:
+      213: 8133218040520297484
+    second: skeleton_sword_45
+  - first:
+      213: -2767127271591468084
+    second: skeleton_sword_46
+  - first:
+      213: 3485972966463229840
+    second: skeleton_sword_47
+  - first:
+      213: 1967479147269501294
+    second: skeleton_sword_48
+  - first:
+      213: -3486029799867894919
+    second: skeleton_sword_49
+  - first:
+      213: -3836907101736568153
+    second: skeleton_sword_50
+  - first:
+      213: 3759918747363028066
+    second: skeleton_sword_51
+  - first:
+      213: 8729996020121861948
+    second: skeleton_sword_52
+  - first:
+      213: -6626431139659240254
+    second: skeleton_sword_53
+  - first:
+      213: -996993250401032657
+    second: skeleton_sword_54
+  - first:
+      213: 2660990742699517843
+    second: skeleton_sword_55
+  - first:
+      213: -4439201377649980488
+    second: skeleton_sword_56
+  - first:
+      213: 6305019940680641125
+    second: skeleton_sword_57
+  - first:
+      213: -3191644600198562342
+    second: skeleton_sword_58
+  - first:
+      213: -7510327151344835825
+    second: skeleton_sword_59
+  - first:
+      213: -5120706213305810176
+    second: skeleton_sword_60
+  - first:
+      213: 7216510389242758915
+    second: skeleton_sword_61
+  - first:
+      213: -4577988114430627000
+    second: skeleton_sword_62
+  - first:
+      213: 5682842094405121783
+    second: skeleton_sword_63
+  - first:
+      213: -707356999201775603
+    second: skeleton_sword_64
+  - first:
+      213: -9023083476424129145
+    second: skeleton_sword_65
+  - first:
+      213: -8165475635702428432
+    second: skeleton_sword_66
+  - first:
+      213: 6844660962768686884
+    second: skeleton_sword_67
+  - first:
+      213: 7667629049501940137
+    second: skeleton_sword_68
+  - first:
+      213: 1036758072845479082
+    second: skeleton_sword_69
+  - first:
+      213: -5816008583719681705
+    second: skeleton_sword_70
+  - first:
+      213: 436402457010229145
+    second: skeleton_sword_71
+  - first:
+      213: 3403278752916142839
+    second: skeleton_sword_72
+  - first:
+      213: -7842997039981537041
+    second: skeleton_sword_73
+  - first:
+      213: -4417838737974518795
+    second: skeleton_sword_74
+  - first:
+      213: 405654062654874868
+    second: skeleton_sword_75
+  - first:
+      213: 7656901365229314480
+    second: skeleton_sword_76
+  - first:
+      213: 6009716105351251689
+    second: skeleton_sword_77
+  - first:
+      213: 7557916677191489041
+    second: skeleton_sword_78
+  - first:
+      213: -310690055172236826
+    second: skeleton_sword_79
+  - first:
+      213: 3518303248489468192
+    second: skeleton_sword_80
+  - first:
+      213: 4401414406548969423
+    second: skeleton_sword_81
+  - first:
+      213: 7665875934462039436
+    second: skeleton_sword_82
+  - first:
+      213: -998549860865811646
+    second: skeleton_sword_83
+  - first:
+      213: -4059613771473644440
+    second: skeleton_sword_84
+  - first:
+      213: 3573077789941703048
+    second: skeleton_sword_85
+  - first:
+      213: 4570066669351636823
+    second: skeleton_sword_86
+  - first:
+      213: -3431011083917049212
+    second: skeleton_sword_87
+  - first:
+      213: -1817509679787686256
+    second: skeleton_sword_88
+  - first:
+      213: -8150169791990035298
+    second: skeleton_sword_89
+  - first:
+      213: 387841770056047976
+    second: skeleton_sword_90
+  - first:
+      213: 8862193607337029025
+    second: skeleton_sword_91
+  - first:
+      213: -3816267704489999296
+    second: skeleton_sword_92
+  - first:
+      213: 371355222602418816
+    second: skeleton_sword_93
+  - first:
+      213: -5050997932655864165
+    second: skeleton_sword_94
+  - first:
+      213: -2926215095769268184
+    second: skeleton_sword_95
+  - first:
+      213: -267186837454950843
+    second: skeleton_sword_96
+  - first:
+      213: -7189595202264273055
+    second: skeleton_sword_97
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skeleton_sword_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1215
+        width: 30
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deffcf8099c61f890800000000000000
+      internalID: -7426034906020642835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1215
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05cd89112a4ec280800000000000000
+      internalID: -9021191497553427187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1215
+        width: 28
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d41d752c02e7f0c0800000000000000
+      internalID: -4541913157383416615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1215
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672d45758ba17b690800000000000000
+      internalID: -7586565668240829834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1215
+        width: 50
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b30b3f83362331b0800000000000000
+      internalID: -5678152702295866444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1215
+        width: 48
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b822f990590d560800000000000000
+      internalID: 7336527661543623467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1215
+        width: 36
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c3a1a11c911afa0800000000000000
+      internalID: -5791319328664437658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1151
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66af36b3b6e5214c0800000000000000
+      internalID: -4318285278043964826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1151
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3d2043a21691250800000000000000
+      internalID: 5915866419416978352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1151
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a3a8062f9c76680800000000000000
+      internalID: -8761812507187070335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1151
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bf506119d225d70800000000000000
+      internalID: 9030330303994264389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1151
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c3cc3e5e1de8100800000000000000
+      internalID: 112257826030369897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1151
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aeb34873bdd90ab0800000000000000
+      internalID: -5041254544977969503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1151
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303c419ccc81d4d10800000000000000
+      internalID: 2111371068132606723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1087
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671739353e7c36a00800000000000000
+      internalID: 748661742247309686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1087
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230fdc70a720954b0800000000000000
+      internalID: -5451323150815072206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1087
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485d4454cda0c03f0800000000000000
+      internalID: -933359081601313404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1087
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42533b17177f547c0800000000000000
+      internalID: -4087589020157922012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1087
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb26efe849c6f9d0800000000000000
+      internalID: -2740782008108700674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1087
+        width: 48
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f714581e2f6c0af0800000000000000
+      internalID: -428845620739696653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1087
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fedce6167ff8870800000000000000
+      internalID: 8687434204063854426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1023
+        width: 20
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20b87b11ea0aef90800000000000000
+      internalID: -6923709515183902676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1023
+        width: 23
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72e159b974e83b40800000000000000
+      internalID: 5420333362991719036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1023
+        width: 21
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d4b0bbf26a84080800000000000000
+      internalID: -9202923114599854789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1023
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f259c11142b678b10800000000000000
+      internalID: 1983671963530073391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1023
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bffff1ed4d6ce90800000000000000
+      internalID: -7005678119843529919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1023
+        width: 33
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dc994cf643dcba0800000000000000
+      internalID: -6067135468353761944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1023
+        width: 28
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00000763babf34850800000000000000
+      internalID: 6360203811548561408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 957
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb38f96ca8deb24f0800000000000000
+      internalID: -852326524162964548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 958
+        width: 42
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1befc56eaa61f550800000000000000
+      internalID: 6192848259876121375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 957
+        width: 43
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8615db915a5c91a70800000000000000
+      internalID: 8798280659937087848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_31
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 956
+        width: 39
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a961ca7eae7f270c0800000000000000
+      internalID: -4579325282801150310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_32
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 957
+        width: 42
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decf4978f780edcf0800000000000000
+      internalID: -225733587493389075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_33
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 958
+        width: 42
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c734b418da04faf0800000000000000
+      internalID: -363653746733598778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_34
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 957
+        width: 42
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32f45e9257f681c0800000000000000
+      internalID: -4501638843294485956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_35
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 956
+        width: 41
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9baf6eae74306d00800000000000000
+      internalID: 963828038954363802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_36
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 957
+        width: 42
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342aa8a77271d79c0800000000000000
+      internalID: -3927957841670135229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 893
+        width: 43
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18ecefa9b8a79180800000000000000
+      internalID: -9108626205859583970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_38
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 893
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095a83a49822a6ab0800000000000000
+      internalID: -5014157262072535664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_39
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 894
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4678dd7f6a116f50800000000000000
+      internalID: 6872803572499117642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_40
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 894
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9831ed627db35c0800000000000000
+      internalID: -4234554462677268021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 893
+        width: 46
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42aa71bf14c5c360800000000000000
+      internalID: 7189368020567499343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_42
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 893
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41f9ed58f9de6e90800000000000000
+      internalID: -7030442307528036020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_43
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 893
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878ef58443ce0f5c0800000000000000
+      internalID: -4183584344530491272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_44
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 893
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c9a3e5fa7ce97e0800000000000000
+      internalID: -1756747248613811075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_45
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 893
+        width: 51
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cc20a57befed070800000000000000
+      internalID: 8133218040520297484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 829
+        width: 37
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3ae7848603999d0800000000000000
+      internalID: -2767127271591468084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_47
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 829
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fc7aa81f9a06030800000000000000
+      internalID: 3485972966463229840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_48
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 828
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61bcfb3cd3ed4b10800000000000000
+      internalID: 1967479147269501294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_49
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 827
+        width: 36
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973b276ed522f9fc0800000000000000
+      internalID: -3486029799867894919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_50
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 828
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa71dcd15190cac0800000000000000
+      internalID: -3836907101736568153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_51
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 829
+        width: 36
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ca7e80e2aed2430800000000000000
+      internalID: 3759918747363028066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_52
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 828
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3fffe5702d272970800000000000000
+      internalID: 8729996020121861948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_53
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 828
+        width: 35
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc2600acff2a04a0800000000000000
+      internalID: -6626431139659240254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_54
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 828
+        width: 35
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26626acbe7f922f0800000000000000
+      internalID: -996993250401032657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_55
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 765
+        width: 43
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39725316bfcbde420800000000000000
+      internalID: 2660990742699517843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_56
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 765
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb8fbeedd9c462c0800000000000000
+      internalID: -4439201377649980488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 766
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a260a0b3eef7750800000000000000
+      internalID: 6305019940680641125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 766
+        width: 50
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addfedb652005b3d0800000000000000
+      internalID: -3191644600198562342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_59
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 765
+        width: 46
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03ae1d4f35f5c790800000000000000
+      internalID: -7510327151344835825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_60
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 765
+        width: 39
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00385c464d89fe8b0800000000000000
+      internalID: -5120706213305810176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_61
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 765
+        width: 45
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3070bbcd6f1362460800000000000000
+      internalID: 7216510389242758915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_62
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 765
+        width: 50
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843f66da018b770c0800000000000000
+      internalID: -4577988114430627000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_63
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 765
+        width: 51
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f677af96c28dde40800000000000000
+      internalID: 5682842094405121783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 701
+        width: 30
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0021359e86fe26f0800000000000000
+      internalID: -707356999201775603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 701
+        width: 31
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7850b01726197c280800000000000000
+      internalID: -9023083476424129145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_66
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 701
+        width: 31
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc89dffb276eae80800000000000000
+      internalID: -8165475635702428432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_67
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 699
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f8fcd81ee1dfe50800000000000000
+      internalID: 6844660962768686884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_68
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 699
+        width: 34
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a97705eef3e86a60800000000000000
+      internalID: 7667629049501940137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_69
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 699
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac29f969fd436e00800000000000000
+      internalID: 1036758072845479082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_70
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 699
+        width: 14
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75104c4f103694fa0800000000000000
+      internalID: -5816008583719681705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_71
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 700
+        width: 19
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fc335f8b96e0600800000000000000
+      internalID: 436402457010229145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_72
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 699
+        width: 19
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa73339effda3f20800000000000000
+      internalID: 3403278752916142839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_73
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 699
+        width: 19
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8d5710fb3182390800000000000000
+      internalID: -7842997039981537041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_74
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 616
+        width: 37
+        height: 46
+      alignment: 9
+      pivot: {x: 0.59, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb9114131fa0b2c0800000000000000
+      internalID: -4417838737974518795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_75
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 615
+        width: 46
+        height: 46
+      alignment: 9
+      pivot: {x: 0.74, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4ec32883c21a500800000000000000
+      internalID: 405654062654874868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_76
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 615
+        width: 45
+        height: 46
+      alignment: 9
+      pivot: {x: 0.71, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b162b24937c24a60800000000000000
+      internalID: 7656901365229314480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_77
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 615
+        width: 58
+        height: 47
+      alignment: 9
+      pivot: {x: 0.77, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6c76cf4fcc66350800000000000000
+      internalID: 6009716105351251689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_78
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 615
+        width: 81
+        height: 67
+      alignment: 9
+      pivot: {x: 0.56, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116dff1ac2d13e860800000000000000
+      internalID: 7557916677191489041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_79
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 615
+        width: 81
+        height: 65
+      alignment: 9
+      pivot: {x: 0.23, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9563a7a0530bbf0800000000000000
+      internalID: -310690055172236826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_80
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 421
+        width: 61
+        height: 50
+      alignment: 9
+      pivot: {x: 0.73, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021515ae92683d030800000000000000
+      internalID: 3518303248489468192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_81
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 424
+        width: 37
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc753a34517f41d30800000000000000
+      internalID: 4401414406548969423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_82
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 424
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8553ddfb89a26a60800000000000000
+      internalID: 7665875934462039436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_83
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 424
+        width: 57
+        height: 47
+      alignment: 9
+      pivot: {x: 0.41, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bd39c21307422f0800000000000000
+      internalID: -998549860865811646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_84
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 424
+        width: 97
+        height: 47
+      alignment: 9
+      pivot: {x: 0.77, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864970a98ca59a7c0800000000000000
+      internalID: -4059613771473644440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_85
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 424
+        width: 99
+        height: 47
+      alignment: 9
+      pivot: {x: 0.77, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8812058a15f169130800000000000000
+      internalID: 3573077789941703048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_86
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 229
+        width: 40
+        height: 50
+      alignment: 9
+      pivot: {x: 0.65, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f8e8a2c632c6f30800000000000000
+      internalID: 4570066669351636823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_87
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 232
+        width: 46
+        height: 47
+      alignment: 9
+      pivot: {x: 0.74, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48242b2f8999260d0800000000000000
+      internalID: -3431011083917049212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_88
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 232
+        width: 42
+        height: 45
+      alignment: 9
+      pivot: {x: 0.71, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096cb686398e6c6e0800000000000000
+      internalID: -1817509679787686256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_89
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 232
+        width: 55
+        height: 46
+      alignment: 9
+      pivot: {x: 0.75, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c805171c7c4ee80800000000000000
+      internalID: -8150169791990035298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_90
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 211
+        width: 81
+        height: 68
+      alignment: 9
+      pivot: {x: 0.56, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ddf35f804e16500800000000000000
+      internalID: 387841770056047976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_91
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 214
+        width: 77
+        height: 65
+      alignment: 9
+      pivot: {x: 0.23, y: 0.27}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adaf08c126dcfa70800000000000000
+      internalID: 8862193607337029025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_92
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 37
+        width: 61
+        height: 50
+      alignment: 9
+      pivot: {x: 0.29, y: 0.06}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04404120eb4e90bc0800000000000000
+      internalID: -3816267704489999296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_93
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 40
+        width: 38
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a04b08b91572500800000000000000
+      internalID: 371355222602418816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_94
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 40
+        width: 36
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9690de342047e9b0800000000000000
+      internalID: -5050997932655864165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_95
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 40
+        width: 57
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8208948cfdef367d0800000000000000
+      internalID: -2926215095769268184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_96
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 40
+        width: 97
+        height: 47
+      alignment: 9
+      pivot: {x: 0.2, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e66d8acf2ca4cf0800000000000000
+      internalID: -267186837454950843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeleton_sword_97
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 40
+        width: 99
+        height: 47
+      alignment: 9
+      pivot: {x: 0.2, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f6f22714d693c90800000000000000
+      internalID: -7189595202264273055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1850129093394b6419aa73d53925d727
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

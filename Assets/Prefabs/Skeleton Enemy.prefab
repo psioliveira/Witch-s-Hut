@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7192115038816708687}
   - component: {fileID: 7192115038816708673}
-  - component: {fileID: 7192115038816708672}
   m_Layer: 11
   m_Name: enemySprite
   m_TagString: Untagged
@@ -25,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7192115038816708686}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.08}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0, y: -1.08, z: -0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7192115038920696758}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
 --- !u!212 &7192115038816708673
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -73,36 +72,17 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 677249688632782394, guid: b1c590ec3cb9fbd4bbf7421570a53b7f, type: 3}
+  m_Sprite: {fileID: -7426034906020642835, guid: b3f28739d14c03042a489ff085e06e89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.56, y: 2.56}
+  m_Size: {x: 0.9375, y: 1.4375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7192115038816708672
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7192115038816708686}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f69ee22929a11174388ff5304a043a3c, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7192115038920696755
 GameObject:
   m_ObjectHideFlags: 0
@@ -114,9 +94,11 @@ GameObject:
   - component: {fileID: 7192115038920696758}
   - component: {fileID: 7192115038920696757}
   - component: {fileID: 7192115038920696756}
+  - component: {fileID: 6170200519014894059}
   - component: {fileID: 7192115038920696759}
+  - component: {fileID: 49422807}
   m_Layer: 11
-  m_Name: Rat Enemy
+  m_Name: Skeleton Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,8 +130,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.91, y: 0.6514659, z: 0.2770241}
-  m_Center: {x: 0.00092482567, y: -0.6770319, z: 0.03851205}
+  m_Size: {x: 0.91, y: 0.75, z: 0.65}
+  m_Center: {x: 0.00092482567, y: -0.65, z: 0.03851205}
 --- !u!54 &7192115038920696756
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -166,6 +148,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
+--- !u!95 &6170200519014894059
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192115038920696755}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f69ee22929a11174388ff5304a043a3c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &7192115038920696759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +180,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemList:
-  - {fileID: 0}
-  enemyAnimator: {fileID: 7192115038816708672}
-  timeLeft: 0
-  itemWorldPrefab: {fileID: 0}
+  - {fileID: 11400000, guid: 7a81159fa0696234d86feb3923dc429f, type: 2}
+  - {fileID: 11400000, guid: d6bcc6ab3bdf6e84eabc3853e2ead552, type: 2}
+  enemyAnimator: {fileID: 6170200519014894059}
+  itemWorldPrefab: {fileID: 1716566341445483066, guid: 57b08b0cded571f43b5dd280a2958e59, type: 3}
+--- !u!114 &49422807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7192115038920696755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e9c14014d33d74ea990f26719e67a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnim: {fileID: 0}
+  target: {fileID: 0}
+  speed: 6
+  maxRange: 10
+  minRange: 1.8
+  attackRange: 2
