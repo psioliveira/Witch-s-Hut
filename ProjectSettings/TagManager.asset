@@ -8,6 +8,7 @@ TagManager:
   - Map
   - Enemy
   - EnemyAttack
+  - Ore
   layers:
   - Default
   - TransparentFX

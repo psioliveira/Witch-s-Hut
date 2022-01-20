@@ -164,6 +164,10 @@ public class PlayerController : MonoBehaviour
             {
                 hitCollider.transform.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
             }
+            if (hitCollider.tag == "Ore")
+            {
+                hitCollider.transform.GetComponent<OreHandler>().takeDamage(attackDamage);
+            }
 
         }
 
