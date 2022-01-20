@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float playerSpeed = 30;
     private Vector3 rawInput;
-    private int health = 100;
 
     [SerializeField] private float dashSpeed = 15f;
     [SerializeField] private float dashLength = .3f;
@@ -142,7 +141,7 @@ public class PlayerController : MonoBehaviour
             dashStartTime += Time.fixedDeltaTime;
         }
         yield return null;
-        yield return new WaitForSeconds(0.001f);
+        yield return new WaitForSecondsRealtime(0.001f);
         dashTriggered = false;
         unableToMove = false;
         hasDashed = false;
@@ -168,7 +167,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        yield return new WaitForSeconds(.3f);
+        yield return new WaitForSecondsRealtime(.3f);
         hasDashed = false;
         unableToMove = false;
         yield return null;

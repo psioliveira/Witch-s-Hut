@@ -15,7 +15,6 @@ public class EnemyDamageHandler : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        
     }
 
 
@@ -52,4 +51,5 @@ public class EnemyDamageHandler : MonoBehaviour
         this.GetComponent<Rigidbody>().isKinematic = true;
     }
 
+ 
 }

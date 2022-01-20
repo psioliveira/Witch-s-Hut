@@ -11,6 +11,8 @@ public class SkeletonAI : MonoBehaviour
     [SerializeField] private float attackRange;
     private bool dead = false;
     private Vector3 attackPos;
+    [SerializeField]private float attackRadius = 1.2f;
+    [SerializeField] private int attackDamage = 10;
 
 
     // Start is called before the first frame update
@@ -47,10 +49,20 @@ public class SkeletonAI : MonoBehaviour
 
         myAnim.SetFloat("MoveX", target.position.x - transform.position.x);
         myAnim.SetFloat("MoveY", target.position.z - transform.position.z);
-        attackPos = (target.position - transform.position).normalized;
-        attackPos = new Vector3(attackPos.x, transform.position.y / 2, attackPos.z);
+        attackPos = (transform.position);
+       
         myAnim.SetTrigger("Attack");
-        yield return new WaitForSeconds(5f);
+        Collider[] hitColliders = Physics.OverlapSphere(attackPos, attackRadius);
+        foreach (var hitCollider in hitColliders)
+        {
+            if (hitCollider.tag == "Player")
+            {
+                hitCollider.transform.GetComponent<PlayerDamageHandler>().takeDamage(attackDamage);
+            }
+
+        }
+
+        yield return new WaitForSecondsRealtime(2f);
         myAnim.ResetTrigger("Attack");
 
         yield return null;
@@ -68,5 +80,9 @@ public class SkeletonAI : MonoBehaviour
     {
         dead = true;
     }
-
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(attackPos, attackRadius);
+    }
 }

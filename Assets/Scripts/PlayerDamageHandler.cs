@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-
+using System.Collections;
 using UnityEngine;
 
 class PlayerDamageHandler : MonoBehaviour
@@ -9,6 +8,7 @@ class PlayerDamageHandler : MonoBehaviour
     private int currentHealth;
     [SerializeField] private Animator playerAnimator;
     private bool dead = false;
+    private bool invincible = false;
 
     void Start()
     {
@@ -18,33 +18,39 @@ class PlayerDamageHandler : MonoBehaviour
 
     public void takeDamage(int damage)
     {
-        currentHealth -= damage;
-
-        if (currentHealth <= 0)
+        if (!invincible)
         {
-            currentHealth = 0;
-            if (!dead)
-                Die();
+            currentHealth -= damage;
+            invincible = true;
 
+
+            if (currentHealth <= 0)
+            {
+                currentHealth = 0;
+                if (!dead)
+                    Die();
+
+            }
+
+            else
+            {
+                playerAnimator.SetTrigger("Hurt");
+            }
         }
+        StartCoroutine(Invincible());
+    }
 
-        else
-        {
-            playerAnimator.SetTrigger("Hurt");
-          
-        }
-
+    private IEnumerator Invincible()
+    {
+        yield return new WaitForSecondsRealtime(2f);
+        invincible = false;
     }
 
     private void Die()
     {
         playerAnimator.SetBool("Die", true);
         dead = true;
-
-        
         GetComponent<PlayerController>().IsDead();
-        this.GetComponent<Collider>().enabled = false;
-        this.GetComponent<Rigidbody>().isKinematic = true;
     }
 
 }
