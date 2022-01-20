@@ -16,7 +16,7 @@ public class PlayerHandler : MonoBehaviour
     {
         if (other.GetComponent<ItemWorld>() != null)
         {
-            inventory.AddItem(other.GetComponent<ItemWorld>().GetItem());
+            inventory.AddItem(other.GetComponent<ItemWorld>());
             (other.GetComponent<ItemWorld>()).DestroySelf();
         }
     }
