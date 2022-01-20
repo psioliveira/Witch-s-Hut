@@ -1,7 +1,289 @@
 fileFormatVersion: 2
 guid: d8ce33ac217332c45a1d1ee475c36c78
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8303800853846070565
+    second: wolfman_0
+  - first:
+      213: 1927354113002138798
+    second: wolfman_1
+  - first:
+      213: -8411707347078145868
+    second: wolfman_2
+  - first:
+      213: -4062369780832413129
+    second: wolfman_3
+  - first:
+      213: 7342438800775584224
+    second: wolfman_4
+  - first:
+      213: 4006095126817726025
+    second: wolfman_5
+  - first:
+      213: -8956459256251548031
+    second: wolfman_6
+  - first:
+      213: -2179207049788994765
+    second: wolfman_7
+  - first:
+      213: -4160436288424193197
+    second: wolfman_8
+  - first:
+      213: -6882408502096456649
+    second: wolfman_9
+  - first:
+      213: 4553119932448532784
+    second: wolfman_10
+  - first:
+      213: -5010004489968507254
+    second: wolfman_11
+  - first:
+      213: -7000799244016959230
+    second: wolfman_12
+  - first:
+      213: -4252328202128786905
+    second: wolfman_13
+  - first:
+      213: 8106880774672300864
+    second: wolfman_14
+  - first:
+      213: 8099441770591809240
+    second: wolfman_15
+  - first:
+      213: 5503283026071678705
+    second: wolfman_16
+  - first:
+      213: -625036408843074158
+    second: wolfman_17
+  - first:
+      213: 5346406318434303508
+    second: wolfman_18
+  - first:
+      213: 6076116259884504329
+    second: wolfman_19
+  - first:
+      213: -4284233515357324741
+    second: wolfman_20
+  - first:
+      213: 1883420430008289465
+    second: wolfman_21
+  - first:
+      213: -5355486815858572005
+    second: wolfman_22
+  - first:
+      213: 2833878695433306896
+    second: wolfman_23
+  - first:
+      213: -937136298738054638
+    second: wolfman_24
+  - first:
+      213: -9116504273341965145
+    second: wolfman_25
+  - first:
+      213: 4368644311799984345
+    second: wolfman_26
+  - first:
+      213: -3018229418844342273
+    second: wolfman_27
+  - first:
+      213: 5846121759066589795
+    second: wolfman_28
+  - first:
+      213: -7649641357103263192
+    second: wolfman_29
+  - first:
+      213: -6500725178266938275
+    second: wolfman_30
+  - first:
+      213: -2132341434387017054
+    second: wolfman_31
+  - first:
+      213: -1075388612824346440
+    second: wolfman_32
+  - first:
+      213: -8148718551429217350
+    second: wolfman_33
+  - first:
+      213: -8432800519245861713
+    second: wolfman_34
+  - first:
+      213: -120252579608290820
+    second: wolfman_35
+  - first:
+      213: 7702238663993141957
+    second: wolfman_36
+  - first:
+      213: 1896704273168887200
+    second: wolfman_37
+  - first:
+      213: 530487779907806524
+    second: wolfman_38
+  - first:
+      213: -9168250669554174044
+    second: wolfman_39
+  - first:
+      213: -7656611578414003540
+    second: wolfman_40
+  - first:
+      213: 7702767092970675258
+    second: wolfman_41
+  - first:
+      213: 2405969493992856999
+    second: wolfman_42
+  - first:
+      213: 4275787229947724693
+    second: wolfman_43
+  - first:
+      213: 642724088752422403
+    second: wolfman_44
+  - first:
+      213: 2055345499230275986
+    second: wolfman_45
+  - first:
+      213: 5038596189566497154
+    second: wolfman_46
+  - first:
+      213: 3205824792583331986
+    second: wolfman_47
+  - first:
+      213: -6891116256001811479
+    second: wolfman_48
+  - first:
+      213: 5371792142514318159
+    second: wolfman_49
+  - first:
+      213: -8877109689807874741
+    second: wolfman_50
+  - first:
+      213: -6423340929826733454
+    second: wolfman_51
+  - first:
+      213: 1532084299391479561
+    second: wolfman_52
+  - first:
+      213: 7558109597808959788
+    second: wolfman_53
+  - first:
+      213: 6260011163412752177
+    second: wolfman_54
+  - first:
+      213: 8657665282193389974
+    second: wolfman_55
+  - first:
+      213: -2662486103125584180
+    second: wolfman_56
+  - first:
+      213: 4878967489612058941
+    second: wolfman_57
+  - first:
+      213: -4444792902276856977
+    second: wolfman_58
+  - first:
+      213: 4034773320864263572
+    second: wolfman_59
+  - first:
+      213: -825518061492333883
+    second: wolfman_60
+  - first:
+      213: -1123430639695554667
+    second: wolfman_61
+  - first:
+      213: 2855423490434289429
+    second: wolfman_62
+  - first:
+      213: -1148499986797021700
+    second: wolfman_63
+  - first:
+      213: 4084903872649136318
+    second: wolfman_64
+  - first:
+      213: -5818759652761135123
+    second: wolfman_65
+  - first:
+      213: 5818672702751593001
+    second: wolfman_66
+  - first:
+      213: 1374844375929388453
+    second: wolfman_67
+  - first:
+      213: -6532188051683136448
+    second: wolfman_68
+  - first:
+      213: 2343715917638340351
+    second: wolfman_69
+  - first:
+      213: -6890685132895510392
+    second: wolfman_70
+  - first:
+      213: -3684971146476710178
+    second: wolfman_71
+  - first:
+      213: -5880170217653904556
+    second: wolfman_72
+  - first:
+      213: -5316448230182141873
+    second: wolfman_73
+  - first:
+      213: -8525818929213756738
+    second: wolfman_74
+  - first:
+      213: -1597604642148426154
+    second: wolfman_75
+  - first:
+      213: -6079352258003397882
+    second: wolfman_76
+  - first:
+      213: 590222835850683345
+    second: wolfman_77
+  - first:
+      213: 5961512242996319262
+    second: wolfman_78
+  - first:
+      213: 4075616374115368806
+    second: wolfman_79
+  - first:
+      213: 1858481360780845069
+    second: wolfman_80
+  - first:
+      213: 3212537039874117201
+    second: wolfman_81
+  - first:
+      213: -2399044671107047541
+    second: wolfman_82
+  - first:
+      213: -8720222082176638949
+    second: wolfman_83
+  - first:
+      213: -1123035122022168402
+    second: wolfman_84
+  - first:
+      213: 7949318737328671269
+    second: wolfman_85
+  - first:
+      213: 3425331923151204529
+    second: wolfman_86
+  - first:
+      213: 6619942919594274165
+    second: wolfman_87
+  - first:
+      213: -3093373766426904451
+    second: wolfman_88
+  - first:
+      213: 5846210017691675664
+    second: wolfman_89
+  - first:
+      213: -1540374097833567111
+    second: wolfman_90
+  - first:
+      213: 337187068210627784
+    second: wolfman_91
+  - first:
+      213: -4703545081954885074
+    second: wolfman_92
+  - first:
+      213: 4560393808891456646
+    second: wolfman_93
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -32,7 +314,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 2
     mipBias: 0
     wrapU: 1
@@ -125,11 +407,1985 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: wolfman_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 782
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda6bec6e19f2cc80800000000000000
+      internalID: -8303800853846070565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 782
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac61edaa565fba10800000000000000
+      internalID: 1927354113002138798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 782
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b81dd62cbc934b80800000000000000
+      internalID: -8411707347078145868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 782
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ad33b25309f97c0800000000000000
+      internalID: -4062369780832413129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 782
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e91649ff2595e560800000000000000
+      internalID: 7342438800775584224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 782
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ed46aea42889730800000000000000
+      internalID: 4006095126817726025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 782
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18efdd182c344b380800000000000000
+      internalID: -8956459256251548031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bcc41fbb6e1c1e0800000000000000
+      internalID: -2179207049788994765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 718
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353d4d51d392346c0800000000000000
+      internalID: -4160436288424193197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 718
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73499619ee5cc70a0800000000000000
+      internalID: -6882408502096456649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 718
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0396851847eef2f30800000000000000
+      internalID: 4553119932448532784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 718
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86a054e573e87ab0800000000000000
+      internalID: -5010004489968507254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 718
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201cb8ced2a28de90800000000000000
+      internalID: -7000799244016959230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 718
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72afcbba702bcf4c0800000000000000
+      internalID: -4252328202128786905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b39cacc1d618070800000000000000
+      internalID: 8106880774672300864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 654
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dee51fa06ff66070800000000000000
+      internalID: 8099441770591809240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 654
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe607b21c69f5c40800000000000000
+      internalID: 5503283026071678705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 654
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295093f92bc6357f0800000000000000
+      internalID: -625036408843074158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 654
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e3e2b5830423a40800000000000000
+      internalID: 5346406318434303508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 654
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9051464bb83b25450800000000000000
+      internalID: 6076116259884504329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 654
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3abd4e01585b84c0800000000000000
+      internalID: -4284233515357324741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b88b5df6e0432a10800000000000000
+      internalID: 1883420430008289465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 590
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1546759d1d7da5b0800000000000000
+      internalID: -5355486815858572005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 590
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01389d1b8a5f35720800000000000000
+      internalID: 2833878695433306896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 590
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a089f508f9ef2f0800000000000000
+      internalID: -937136298738054638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 590
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac1f1a2aabab7180800000000000000
+      internalID: -9116504273341965145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 590
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d07ed20bda80ac30800000000000000
+      internalID: 4368644311799984345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 590
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff73627b5581d16d0800000000000000
+      internalID: -3018229418844342273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a88da04c8912150800000000000000
+      internalID: 5846121759066589795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82219ba17b307d590800000000000000
+      internalID: -7649641357103263192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5416f684e8c8c5a0800000000000000
+      internalID: -6500725178266938275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d38753c66862e0800000000000000
+      internalID: -2132341434387017054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0da1911c37311f0800000000000000
+      internalID: -1075388612824346440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab30d67b6afe9ee80800000000000000
+      internalID: -8148718551429217350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facee9c4b9ca8fa80800000000000000
+      internalID: -8432800519245861713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 526
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf99f1d7ae6c45ef0800000000000000
+      internalID: -120252579608290820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca2796b149d3ea60800000000000000
+      internalID: 7702238663993141957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad623ebc72725a10800000000000000
+      internalID: 1896704273168887200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35271f33dbac5700800000000000000
+      internalID: 530487779907806524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a77c7d6794d3c080800000000000000
+      internalID: -9168250669554174044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa8d7df5504eb590800000000000000
+      internalID: -7656611578414003540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cd51c2cd9b5ea60800000000000000
+      internalID: 7702767092970675258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7added5e188b36120800000000000000
+      internalID: 2405969493992856999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 462
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5938f20e4d5a65b30800000000000000
+      internalID: 4275787229947724693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ebca6472a6be800800000000000000
+      internalID: 642724088752422403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299815487dd068c10800000000000000
+      internalID: 2055345499230275986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2817fbde980bce540800000000000000
+      internalID: 5038596189566497154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290e116e9a06d7c20800000000000000
+      internalID: 3205824792583331986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb971f9646dd50a0800000000000000
+      internalID: -6891116256001811479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4beccd1e707c8a40800000000000000
+      internalID: 5371792142514318159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45d2d225cb2ec480800000000000000
+      internalID: -8877109689807874741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 398
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2724376e475bbd6a0800000000000000
+      internalID: -6423340929826733454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fae2f8d8e034510800000000000000
+      internalID: 1532084299391479561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21afd672acc3e860800000000000000
+      internalID: 7558109597808959788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13762357cf600e650800000000000000
+      internalID: 6260011163412752177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6997e5134b4362870800000000000000
+      internalID: 8657665282193389974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc619c3eef2fc0bd0800000000000000
+      internalID: -2662486103125584180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d319109f41395b340800000000000000
+      internalID: 4878967489612058941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f634c97a76ce052c0800000000000000
+      internalID: -4444792902276856977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 334
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d665b45f46ef730800000000000000
+      internalID: 4034773320864263572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2941562bb2b84f0800000000000000
+      internalID: -825518061492333883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 270
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597182f09c5c860f0800000000000000
+      internalID: -1123430639695554667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 270
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f44ae298080a720800000000000000
+      internalID: 2855423490434289429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 270
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf53c66d855bf00f0800000000000000
+      internalID: -1148499986797021700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 270
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb88edeed6e70b830800000000000000
+      internalID: 4084903872649136318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 270
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de71cc7ccec9f3fa0800000000000000
+      internalID: -5818759652761135123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 206
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92255c79ef310c050800000000000000
+      internalID: 5818672702751593001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 206
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adf6b8fcad641310800000000000000
+      internalID: 1374844375929388453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 206
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c206573910955a0800000000000000
+      internalID: -6532188051683136448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 206
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe0345a53d868020800000000000000
+      internalID: 2343715917638340351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 206
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880a2ba416e5f50a0800000000000000
+      internalID: -6890685132895510392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 206
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed611be144a5cdcc0800000000000000
+      internalID: -3684971146476710178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b58ed6750756ea0800000000000000
+      internalID: -5880170217653904556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 142
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f404d3d908e2836b0800000000000000
+      internalID: -5316448230182141873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 142
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaa9e80bd43ea980800000000000000
+      internalID: -8525818929213756738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_75
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 142
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e5a3dda0b24d9e0800000000000000
+      internalID: -1597604642148426154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 142
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6031d35c45dc1aba0800000000000000
+      internalID: -6079352258003397882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_77
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 142
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d32435ca84e03800800000000000000
+      internalID: 590222835850683345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1410ffaccb8bb250800000000000000
+      internalID: 5961512242996319262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 78
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f79ebaf7f7f8830800000000000000
+      internalID: 4075616374115368806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 78
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00e60373f6aac910800000000000000
+      internalID: 1858481360780845069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 78
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e4b71ca69359c20800000000000000
+      internalID: 3212537039874117201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 78
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fde521591e4bed0800000000000000
+      internalID: -2399044671107047541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 78
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10285dc73c8bf680800000000000000
+      internalID: -8720222082176638949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8c491b18d2a60f0800000000000000
+      internalID: -1123035122022168402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 14
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a05d83647a15e60800000000000000
+      internalID: 7949318737328671269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 14
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0bb356c39398f20800000000000000
+      internalID: 3425331923151204529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 14
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d67cbe203cedb50800000000000000
+      internalID: 6619942919594274165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 14
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78bc96e2f02215d0800000000000000
+      internalID: -3093373766426904451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_89
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 14
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ca7da5909e12150800000000000000
+      internalID: 5846210017691675664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_90
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 526
+        width: 54
+        height: 65
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cda655bed7f9ae0800000000000000
+      internalID: -1540374097833567111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_91
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 462
+        width: 54
+        height: 64
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4cc8f1addeda400800000000000000
+      internalID: 337187068210627784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_92
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 398
+        width: 54
+        height: 64
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e222b0d1ba6a9beb0800000000000000
+      internalID: -4703545081954885074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wolfman_93
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 334
+        width: 54
+        height: 64
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cadd6d106c94f30800000000000000
+      internalID: 4560393808891456646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c91b7ee5265ec6c4fa46e60417a1c625
     internalID: 0
     vertices: []
     indices: 

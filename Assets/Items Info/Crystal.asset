@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Crystal
   isStackable: 1
   itemSprite: {fileID: 21300000, guid: 04e640e93df7f5f4895b6679f6c91c66, type: 3}
+  amount: 1

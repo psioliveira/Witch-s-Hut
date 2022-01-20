@@ -63,7 +63,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: imp attack
+  m_Name: Skeleton attack
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -141,7 +141,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: imp walk
+  m_Name: Skeleton walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -193,7 +193,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: enemy
+  m_Name: Skeleton
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Hurt
@@ -267,7 +267,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9d3d9d270ffdc2048b4d31c93e33de31, type: 2}
+  m_Motion: {fileID: 7400000, guid: d7d370ad5eac2784ba2c6d984c6b93e8, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -368,7 +368,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c213c8c35636d3749b137258164a8054, type: 2}
+    m_Motion: {fileID: 7400000, guid: ecc7729032da205428ce576a447ba2ff, type: 2}
     m_Threshold: 0
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -376,7 +376,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: ed8f4174f558b5f48ae3f1fcbe61bc68, type: 2}
+    m_Motion: {fileID: 7400000, guid: 2e0e65a6f49b52b4391358b68086d6f3, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -384,7 +384,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 7145465a2047f604d8bff0008305f829, type: 2}
+    m_Motion: {fileID: 7400000, guid: 97a892af010fa144f884111093610b2f, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -392,7 +392,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: dabc397b8a334dc47bf0a1e4f70c01ad, type: 2}
+    m_Motion: {fileID: 7400000, guid: 3630bb9e0c6f35b4489479c6c63fd1cc, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -415,7 +415,7 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 5910a9921054b134c8d4d8f2a618e1ac, type: 2}
+    m_Motion: {fileID: 7400000, guid: eb993228f2ae80c4cb30aeb3b6ca83e3, type: 2}
     m_Threshold: 0
     m_Position: {x: 1, y: 0}
     m_TimeScale: 1
@@ -423,7 +423,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 316c6878f30851b428a8a7ecc69de7d2, type: 2}
+    m_Motion: {fileID: 7400000, guid: 48ee7f6405814bf49a35aa2b18b9df98, type: 2}
     m_Threshold: 0.33333334
     m_Position: {x: -1, y: 0}
     m_TimeScale: 1
@@ -431,7 +431,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: d528153dd564e934cb6c2f637e63e9a9, type: 2}
+    m_Motion: {fileID: 7400000, guid: 7152946a01941c64282b60f707d50976, type: 2}
     m_Threshold: 0.6666667
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -439,7 +439,7 @@ BlendTree:
     m_DirectBlendParameter: MoveX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: b2d6707f69493f64d88945232a36a77f, type: 2}
+    m_Motion: {fileID: 7400000, guid: ee6cf77a29300e948a6219dc4beeabe5, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: -1}
     m_TimeScale: 1
@@ -460,7 +460,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: imp idle
+  m_Name: rat idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -475,7 +475,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: d36446ebbeb74c44b8e886e17657ea8c, type: 2}
+  m_Motion: {fileID: 7400000, guid: 4ee1918e4f997234d85eb5522b41572c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -488,7 +488,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: imp Die
+  m_Name: skeleton Die
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -501,7 +501,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 1694984b1546abe4a92d5ab65e76e74b, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2cd24ca62b1ba6d4b92800582d50b0ac, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

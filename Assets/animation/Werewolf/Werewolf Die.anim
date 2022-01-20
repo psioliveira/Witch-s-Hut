@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: skeleton Idle
+  m_Name: Werewolf Die
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,15 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -5723780740828389136, guid: 8d124096e130a9848baafe7ec27af35f, type: 3}
+      value: {fileID: 7949318737328671269, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - time: 0.15
+      value: {fileID: 3425331923151204529, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - time: 0.3
+      value: {fileID: 6619942919594274165, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - time: 0.43333334
+      value: {fileID: -3093373766426904451, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - time: 0.5833333
+      value: {fileID: 5846210017691675664, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
     attribute: m_Sprite
     path: enemySprite
     classID: 212
@@ -40,13 +48,17 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -5723780740828389136, guid: 8d124096e130a9848baafe7ec27af35f, type: 3}
+    - {fileID: 7949318737328671269, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - {fileID: 3425331923151204529, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - {fileID: 6619942919594274165, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - {fileID: -3093373766426904451, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
+    - {fileID: 5846210017691675664, guid: d8ce33ac217332c45a1d1ee475c36c78, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.59999996
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
