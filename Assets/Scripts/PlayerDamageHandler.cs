@@ -4,15 +4,19 @@ using UnityEngine;
 
 class PlayerDamageHandler : MonoBehaviour
 {
-    private int maxHealth = 100;
-    private int currentHealth;
+    public int maxHealth = 100;
+    public int currentHealth;
+    public HealthBar healthBar;
     [SerializeField] private Animator playerAnimator;
     private bool dead = false;
     private bool invincible = false;
 
+    
+
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
 
@@ -21,8 +25,9 @@ class PlayerDamageHandler : MonoBehaviour
         if (!invincible)
         {
             currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
             invincible = true;
-
+            
 
             if (currentHealth <= 0)
             {
