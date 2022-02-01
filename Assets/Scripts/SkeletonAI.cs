@@ -11,7 +11,7 @@ public class SkeletonAI : MonoBehaviour
     [SerializeField] private float attackRange;
     private bool dead = false;
     private Vector3 attackPos;
-    [SerializeField]private float attackRadius = 1.2f;
+    [SerializeField] private float attackRadius = 1.2f;
     [SerializeField] private int attackDamage = 10;
 
 
@@ -50,7 +50,7 @@ public class SkeletonAI : MonoBehaviour
         myAnim.SetFloat("MoveX", target.position.x - transform.position.x);
         myAnim.SetFloat("MoveY", target.position.z - transform.position.z);
         attackPos = (transform.position);
-       
+
         myAnim.SetTrigger("Attack");
         Collider[] hitColliders = Physics.OverlapSphere(attackPos, attackRadius);
         foreach (var hitCollider in hitColliders)
@@ -62,9 +62,8 @@ public class SkeletonAI : MonoBehaviour
 
         }
 
-        yield return new WaitForSecondsRealtime(2f);
+        yield return new WaitForSecondsRealtime(3f);
         myAnim.ResetTrigger("Attack");
-
         yield return null;
     }
 
