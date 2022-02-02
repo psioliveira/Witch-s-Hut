@@ -11,7 +11,7 @@ class PlayerDamageHandler : MonoBehaviour
     private bool dead = false;
     private bool invincible = false;
 
-    
+
 
     void Start()
     {
@@ -22,12 +22,12 @@ class PlayerDamageHandler : MonoBehaviour
 
     public void takeDamage(int damage)
     {
+
         if (!invincible)
         {
             currentHealth -= damage;
-            healthBar.SetHealth(currentHealth);
             invincible = true;
-            
+
 
             if (currentHealth <= 0)
             {
@@ -42,12 +42,13 @@ class PlayerDamageHandler : MonoBehaviour
                 playerAnimator.SetTrigger("Hurt");
             }
         }
+        healthBar.SetHealth(currentHealth);
         StartCoroutine(Invincible());
     }
 
     private IEnumerator Invincible()
     {
-        yield return new WaitForSecondsRealtime(2f);
+        yield return new WaitForSecondsRealtime(3f);
         invincible = false;
     }
 

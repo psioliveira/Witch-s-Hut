@@ -32,19 +32,19 @@ public class UI_Inventory : MonoBehaviour
         int x = 0, y = 0;
         float itemSlotSize = 58f;
 
-        foreach (ItemInfo i in inventory.GetItemList())
+        foreach (ItemWorld i in inventory.GetItemList())
         {
             RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
             itemSlotRectTransform.gameObject.SetActive(true);
             itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotSize, y * itemSlotSize);
            
             Image image = itemSlotRectTransform.Find("image").GetComponent<Image>();
-            image.sprite = i.itemSprite;
+            image.sprite = i.GetItem().itemSprite;
 
             TextMeshProUGUI uiText = itemSlotRectTransform.Find("amountText").GetComponent<TextMeshProUGUI>();
-            if (i.amount > 1)
+            if (i.GetAmount() > 1)
             {
-                uiText.SetText(i.amount.ToString());
+                uiText.SetText(i.GetAmount().ToString());
             }
             else{
                 uiText.SetText("");

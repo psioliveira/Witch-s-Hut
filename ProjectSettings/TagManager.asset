@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - EnemyAttack
   - Ore
+  - Item
   layers:
   - Default
   - TransparentFX

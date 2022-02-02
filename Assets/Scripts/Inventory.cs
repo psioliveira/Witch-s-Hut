@@ -1,26 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 public class Inventory
 {
     public event EventHandler OnItemListChanged;
 
-    public List<ItemInfo> itemList;
+    public List<ItemWorld> itemList;
     public Inventory()
     {
-        itemList = new List<ItemInfo>();
+        itemList = new List<ItemWorld>();
     }
-    public void AddItem(ItemInfo item)
+    public void AddItem(ItemWorld item)
     {
-        if (item.isStackable)
+        if (item.GetItem().isStackable)
         {
             bool itemAlreadyInInventory = false;
-            foreach (ItemInfo i in itemList)
+            foreach (ItemWorld i in itemList)
             {
-                if (i.itemName == item.itemName)
+                if (i.GetItem().itemName == item.GetItem().itemName)
                 {
-                    i.amount += item.amount;
+                    i.AddAmount (item.GetAmount());
                     itemAlreadyInInventory = true;
                 }
             }
@@ -40,7 +39,7 @@ public class Inventory
 
 
 
-    public List<ItemInfo> GetItemList()
+    public List<ItemWorld> GetItemList()
     {
         return itemList;
     }

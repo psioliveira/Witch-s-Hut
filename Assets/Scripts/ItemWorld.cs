@@ -4,7 +4,7 @@ public class ItemWorld : MonoBehaviour
 {
     private ItemInfo itemInfo;
     private SpriteRenderer spriteRenderer;
-
+    private int amount = 1;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -19,6 +19,16 @@ public class ItemWorld : MonoBehaviour
         return itemInfo;
     }
 
+
+    public int GetAmount()
+    {
+        return amount;
+    }
+    public void AddAmount(int amount)
+    {
+        this.amount += amount;
+    }
+
     public void DestroySelf()
     {
         Destroy(gameObject);
@@ -26,7 +36,7 @@ public class ItemWorld : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.gameObject.tag != "Map")
+        if (GetComponent<Collider>().tag == "Item" && collision.transform.gameObject.tag != "Map")
         {
             Physics.IgnoreCollision(GetComponent<Collider>(), collision.collider, true);
         }
