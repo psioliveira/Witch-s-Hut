@@ -564,8 +564,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemList:
-  - {fileID: 11400000, guid: 7a81159fa0696234d86feb3923dc429f, type: 2}
-  - {fileID: 11400000, guid: a822705158d2c0a4283679758d45d731, type: 2}
+  - {fileID: 11400000, guid: cc09f0f62611a6f4cb48e87ef43a6b65, type: 2}
+  - {fileID: 11400000, guid: 31f3ce94d7c879943af08e7de31faa79, type: 2}
   healthBar: {fileID: 1627341133}
   enemyAnimator: {fileID: 7358577836861684641}
   itemWorldPrefab: {fileID: 1716566341445483066, guid: 57b08b0cded571f43b5dd280a2958e59, type: 3}
