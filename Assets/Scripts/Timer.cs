@@ -1,5 +1,6 @@
 
-using TMPro;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +9,7 @@ public class Timer : MonoBehaviour
     public float startTime = 0;
     private float timeRemaining;
     public bool timerIsRunning = false;
-    public TMP_Text timeText;
+    public Text timeText;
 
     private void Start()
     {

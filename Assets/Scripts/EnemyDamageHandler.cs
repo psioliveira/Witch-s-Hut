@@ -8,7 +8,6 @@ public class EnemyDamageHandler : MonoBehaviour
     [SerializeField] private List<ItemInfo> itemList;
     private int maxHealth = 100;
     private int currentHealth;
-    public HealthBar healthBar;
     [SerializeField] private Animator enemyAnimator;
     private bool dead = false;
     [SerializeField] private ItemWorld itemWorldPrefab;
@@ -16,14 +15,12 @@ public class EnemyDamageHandler : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
     }
 
 
     public void takeDamage(int damage)
     {
         currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
 
         if (currentHealth <= 0)
         {

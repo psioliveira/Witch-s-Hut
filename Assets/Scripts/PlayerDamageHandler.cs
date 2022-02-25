@@ -4,25 +4,20 @@ using UnityEngine;
 
 class PlayerDamageHandler : MonoBehaviour
 {
-    public int maxHealth = 100;
-    public int currentHealth;
-    public HealthBar healthBar;
+    private int maxHealth = 100;
+    private int currentHealth;
     [SerializeField] private Animator playerAnimator;
     private bool dead = false;
     private bool invincible = false;
 
-
-
     void Start()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
     }
 
 
     public void takeDamage(int damage)
     {
-
         if (!invincible)
         {
             currentHealth -= damage;
@@ -42,13 +37,12 @@ class PlayerDamageHandler : MonoBehaviour
                 playerAnimator.SetTrigger("Hurt");
             }
         }
-        healthBar.SetHealth(currentHealth);
         StartCoroutine(Invincible());
     }
 
     private IEnumerator Invincible()
     {
-        yield return new WaitForSecondsRealtime(3f);
+        yield return new WaitForSecondsRealtime(2f);
         invincible = false;
     }
 
