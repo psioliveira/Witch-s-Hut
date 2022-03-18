@@ -637,7 +637,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2292,7 +2292,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985588966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -186.1, y: -105, z: 63}
+  m_LocalPosition: {x: -186.1, y: -69, z: 63}
   m_LocalScale: {x: 775.1313, y: 81.489555, z: 775.1313}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2628,7 +2628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.574}
   m_AnchorMax: {x: 0.18944973, y: 1}
-  m_AnchoredPosition: {x: 2.0000305, y: -2.0650024}
+  m_AnchoredPosition: {x: 2.000061, y: -2.0650024}
   m_SizeDelta: {x: -4, y: -3.470005}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1107771157
@@ -4160,7 +4160,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.014284447, g: 0.019160083, b: 0.028301895, a: 1}
+  m_Color: {r: 0.7309897, g: 0.7420435, b: 0.764151, a: 1}
   m_Intensity: 100
   m_Range: 10
   m_SpotAngle: 30
@@ -4921,6 +4921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas Menu
       objectReference: {fileID: 0}
+    - target: {fileID: 4784511557597115716, guid: 13d64b0be5d44884d8eaf94a5b45c86d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4784511557597115720, guid: 13d64b0be5d44884d8eaf94a5b45c86d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -5130,7 +5134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.034672208, y: 0.064}
   m_AnchorMax: {x: 0.95600003, y: 0.95000005}
-  m_AnchoredPosition: {x: 1.0184326, y: -1.0000229}
+  m_AnchoredPosition: {x: 1.0184326, y: -1.0000305}
   m_SizeDelta: {x: 1.9631042, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &909180650415487841
@@ -5522,7 +5526,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 6773290003769360167, guid: 0184772ad55c65b4cbc1b182377a82c9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0184772ad55c65b4cbc1b182377a82c9, type: 3}
 --- !u!1001 &7192115039002909336
