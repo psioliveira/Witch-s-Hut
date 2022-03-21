@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-
+    public Quest quest;
     private PlayerControls playerControl;
 
     [SerializeField] private float playerSpeed = 30;

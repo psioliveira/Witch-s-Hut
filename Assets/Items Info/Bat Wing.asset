@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Bat Wing
   m_EditorClassIdentifier: 
   itemName: bat wing
-  isStackable: 0
+  isStackable: 1
   itemSprite: {fileID: 21300000, guid: 84e6a4e93c36dbf48b0d794cae6c72b3, type: 3}

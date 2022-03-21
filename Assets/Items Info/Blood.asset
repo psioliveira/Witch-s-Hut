@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Blood
   m_EditorClassIdentifier: 
   itemName: blood
-  isStackable: 0
+  isStackable: 1
   itemSprite: {fileID: 21300000, guid: 519c09a2fe86ec846b679bbb3fa74d02, type: 3}
