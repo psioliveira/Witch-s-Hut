@@ -2,31 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class HUDInput : MonoBehaviour
 {
+    [SerializeField]
     Animator anim;
-    // Start is called before the first frame update
-    void Start()
-    {
-        anim = gameObject.GetComponent<Animator>();
-    }
 
     // Update is called once per frame
-    void FixedUpdate()
+    public void ToggleInventory()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
-        {
+        
             //Hide > Show
-            if (anim.GetBool("Shown") == false)
+            if (anim.GetBool("Open") == false)
             {
-                anim.Play("Show");
-                anim.SetBool("Shown", false);
+                anim.SetBool("Open", true);
             }
             else
             {
-                anim.Play("Hide");
-                anim.SetBool("Shown", true);
+                anim.SetBool("Open", false);
             }
-        }
     }
 }

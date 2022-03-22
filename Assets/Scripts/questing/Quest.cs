@@ -12,8 +12,12 @@ public class Quest
 
     public void Complete()
     {
-        isActive = false;
-        Debug.Log(title + "was completed!");
+        if (goal = true)
+        {
+           isActive = false;
+            Debug.Log(title + "was completed!"); 
+        }
+        
     }
     
 }
