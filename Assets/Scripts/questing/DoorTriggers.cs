@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class DoorTriggers : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Quest quest;
 
-    // Update is called once per frame
-    void Update()
+    public void Q1Done()
     {
-        
+        if (quest.goal.IsReached())
+            {
+                GetComponent<Animator>().Play("Door 1 Open");
+                quest.Complete();
+            }
     }
 }

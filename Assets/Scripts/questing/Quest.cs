@@ -9,15 +9,16 @@ public class Quest
     public string title;
     public string description;
     public QuestGoal goal;
+    public DoorTriggers q1Done;
+    public ItemInfo itemInfo;
 
     public void Complete()
     {
-        if (goal = true)
-        {
-           isActive = false;
-            Debug.Log(title + "was completed!"); 
-        }
         
+        isActive = false;
+        Debug.Log(title + "was completed!"); 
+        q1Done.Q1Done();
+                
     }
     
 }

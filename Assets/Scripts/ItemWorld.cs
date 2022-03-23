@@ -5,6 +5,8 @@ public class ItemWorld : MonoBehaviour
     private ItemInfo itemInfo;
     private SpriteRenderer spriteRenderer;
     private int amount = 1;
+
+    public ItemInfo ItemInfo => itemInfo;
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();

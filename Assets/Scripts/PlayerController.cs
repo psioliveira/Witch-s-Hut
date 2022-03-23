@@ -58,7 +58,6 @@ public class PlayerController : MonoBehaviour
             _canDash = true;
         UpdateAnimatorVariables();
 
-
     }
 
     private void FixedUpdate()
@@ -66,6 +65,14 @@ public class PlayerController : MonoBehaviour
         if (!dead&&!unableToMove)
         {
             PlayerMovement();
+        }
+    }
+
+    public void GoGather()
+    {
+        if (quest.isActive)
+        {
+            quest.goal.ItemCollected();
         }
     }
 

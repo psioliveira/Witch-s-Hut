@@ -754,6 +754,8 @@ MonoBehaviour:
       gatherGoal: 0
       requiredAmount: 5
       currentAmount: 0
+    q1Done: {fileID: 0}
+    itemInfo: {fileID: 0}
   player: {fileID: 1022229996467154019}
   questWindow: {fileID: 1914354767}
   titleText: {fileID: 1431748094}
@@ -2247,6 +2249,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 435062, guid: a25b3d9a8119bf047b7609dba7f57302, type: 3}
   m_PrefabInstance: {fileID: 1366958303}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1366958305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100898, guid: a25b3d9a8119bf047b7609dba7f57302, type: 3}
+  m_PrefabInstance: {fileID: 1366958303}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1366958306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366958305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e099fd383827bf341b771c424d78facb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1379514817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3770,6 +3789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bc2ae991e8ff2468562c622a5f8aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   playerAnimator: {fileID: 1022229996467154016}
 --- !u!65 &2040528389
 BoxCollider:
@@ -3952,6 +3972,8 @@ MonoBehaviour:
       gatherGoal: 0
       requiredAmount: 0
       currentAmount: 0
+    q1Done: {fileID: 0}
+    itemInfo: {fileID: 0}
   playerSpeed: 10
   dashSpeed: 60
   dashLength: 0.1

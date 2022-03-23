@@ -14,10 +14,25 @@ public class PlayerHandler : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.GetComponent<ItemWorld>() != null)
+
+
+        ItemWorld itemWorld = other.GetComponent<ItemWorld>();
+
+        if (itemWorld != null)
         {
-            inventory.AddItem(other.GetComponent<ItemWorld>());
-            (other.GetComponent<ItemWorld>()).DestroySelf();
+            inventory.AddItem(itemWorld);
+
+            Quest quest = GetComponent<PlayerController>().quest;
+
+            if (quest.isActive && quest.itemInfo == itemWorld.ItemInfo)
+            {
+                quest.goal.currentAmount++;
+                if (quest.goal.IsReached())
+                    quest.Complete();
+            }
+
+            itemWorld.DestroySelf();
         }
+
     }
 }

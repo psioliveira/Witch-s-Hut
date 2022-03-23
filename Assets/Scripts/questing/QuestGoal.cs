@@ -6,9 +6,10 @@ using UnityEngine;
 public class QuestGoal 
 {
     public GatherGoal gatherGoal;
-
+    public string ItemName { get; set; }
     public int requiredAmount;
     public int currentAmount;
+
     public bool IsReached()
     {
         return (currentAmount >= requiredAmount);
