@@ -9,7 +9,7 @@ public class KillPlayer : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            SceneManager.LoadScene("New Scene");
+            SceneManager.LoadScene("hutt");
         }
     }
 }

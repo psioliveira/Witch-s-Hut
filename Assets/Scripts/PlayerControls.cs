@@ -59,6 +59,14 @@ namespace PlayerControl
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Quest"",
+                    ""type"": ""Button"",
+                    ""id"": ""89aede17-580a-4094-9073-f90419fa92ea"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -215,6 +223,17 @@ namespace PlayerControl
                     ""action"": ""Inventory"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c6d8668b-ac90-4298-b83e-14c6099d4656"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Quest"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -228,6 +247,7 @@ namespace PlayerControl
             m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
             m_Player_Collect = m_Player.FindAction("Collect", throwIfNotFound: true);
             m_Player_Inventory = m_Player.FindAction("Inventory", throwIfNotFound: true);
+            m_Player_Quest = m_Player.FindAction("Quest", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -282,6 +302,7 @@ namespace PlayerControl
         private readonly InputAction m_Player_Attack;
         private readonly InputAction m_Player_Collect;
         private readonly InputAction m_Player_Inventory;
+        private readonly InputAction m_Player_Quest;
         public struct PlayerActions
         {
             private @PlayerControls m_Wrapper;
@@ -291,6 +312,7 @@ namespace PlayerControl
             public InputAction @Attack => m_Wrapper.m_Player_Attack;
             public InputAction @Collect => m_Wrapper.m_Player_Collect;
             public InputAction @Inventory => m_Wrapper.m_Player_Inventory;
+            public InputAction @Quest => m_Wrapper.m_Player_Quest;
             public InputActionMap Get() { return m_Wrapper.m_Player; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -315,6 +337,9 @@ namespace PlayerControl
                     @Inventory.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInventory;
                     @Inventory.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInventory;
                     @Inventory.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInventory;
+                    @Quest.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnQuest;
+                    @Quest.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnQuest;
+                    @Quest.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnQuest;
                 }
                 m_Wrapper.m_PlayerActionsCallbackInterface = instance;
                 if (instance != null)
@@ -334,6 +359,9 @@ namespace PlayerControl
                     @Inventory.started += instance.OnInventory;
                     @Inventory.performed += instance.OnInventory;
                     @Inventory.canceled += instance.OnInventory;
+                    @Quest.started += instance.OnQuest;
+                    @Quest.performed += instance.OnQuest;
+                    @Quest.canceled += instance.OnQuest;
                 }
             }
         }
@@ -345,6 +373,7 @@ namespace PlayerControl
             void OnAttack(InputAction.CallbackContext context);
             void OnCollect(InputAction.CallbackContext context);
             void OnInventory(InputAction.CallbackContext context);
+            void OnQuest(InputAction.CallbackContext context);
         }
     }
 }
