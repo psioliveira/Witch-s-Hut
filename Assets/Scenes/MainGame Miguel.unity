@@ -19215,6 +19215,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5796583132782088700, guid: 9348f2580d443cc45bbda49b6fb06bfc, type: 3}
   m_PrefabInstance: {fileID: 552801308}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &648200148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7928437231029098774, guid: ed1707db0875f2d468fd950a89e0bc25, type: 3}
+  m_PrefabInstance: {fileID: 582905646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &648200152
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 648200148}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2337204539900121084, guid: ed1707db0875f2d468fd950a89e0bc25, type: 3}
 --- !u!1 &649450303 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2994434406123524641, guid: f0874536d5c46724c8042b3a47a95372, type: 3}
@@ -51493,6 +51512,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2108028487598801399, guid: d6b514178d644b44782cb4301b2d393a, type: 3}
+--- !u!1 &1741935901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1703161035152965987, guid: ed1707db0875f2d468fd950a89e0bc25, type: 3}
+  m_PrefabInstance: {fileID: 582905646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1741935905
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741935901}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3750682978780681597, guid: ed1707db0875f2d468fd950a89e0bc25, type: 3}
 --- !u!1 &1742610805 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2994434406814586731, guid: f0874536d5c46724c8042b3a47a95372, type: 3}
@@ -65466,7 +65504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1022229996835739951, guid: 50d7fd61da9d24446b9b5fc8a65b4939, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.36
+      value: 3.36
       objectReference: {fileID: 0}
     - target: {fileID: 1022229996835739951, guid: 50d7fd61da9d24446b9b5fc8a65b4939, type: 3}
       propertyPath: m_LocalPosition.z
