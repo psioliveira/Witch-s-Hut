@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 51acb2834d4e0eb4cbc3f4e197bb17ba
   - enabled: 1
-    path: Assets/Scenes/hutt.unity
+    path: Assets/Scenes/hutt Miguel.unity
     guid: d511413fb650301428d31dd3a81824d6
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
