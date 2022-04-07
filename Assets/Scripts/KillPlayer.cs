@@ -5,11 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class KillPlayer : MonoBehaviour
 {
+    public float restarDelay = 2f;
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
-            SceneManager.LoadScene("hutt");
+            Invoke("Restart", restarDelay);
+            
         }
     }
+    
+    void Restart()
+    {
+      SceneManager.LoadScene("hutt Miguel");  
+    }
+    
 }

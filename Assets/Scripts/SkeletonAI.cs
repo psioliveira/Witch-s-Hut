@@ -9,6 +9,7 @@ public class SkeletonAI : MonoBehaviour
     [SerializeField] private float maxRange;
     [SerializeField] private float minRange;
     [SerializeField] private float attackRange;
+    [SerializeField] private int id;
     private bool dead = false;
     private Vector3 attackPos;
     [SerializeField]private float attackRadius = 1.2f;

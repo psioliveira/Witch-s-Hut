@@ -68,11 +68,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void GoGather()
+    public void GoKill()
     {
         if (quest.isActive)
         {
-            quest.goal.ItemCollected();
+            quest.goal.EnemyKilled();
         }
     }
 

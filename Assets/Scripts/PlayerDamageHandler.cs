@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 class PlayerDamageHandler : MonoBehaviour
 {
@@ -29,10 +30,12 @@ class PlayerDamageHandler : MonoBehaviour
 
             if (currentHealth <= 0)
             {
-                currentHealth = 0;
+                currentHealth = 0;    
                 if (!dead)
-                    Die();
-
+                {
+                    Die();  
+                }
+                Invoke("Restart", 2f);
             }
 
             else
@@ -41,6 +44,11 @@ class PlayerDamageHandler : MonoBehaviour
             }
         }
         StartCoroutine(Invincible());
+    }
+
+    void Restart()
+    {
+        SceneManager.LoadScene("hutt Miguel");
     }
 
     private IEnumerator Invincible()

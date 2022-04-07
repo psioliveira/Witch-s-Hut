@@ -6,28 +6,31 @@ using UnityEngine;
 public class EnemyDamageHandler : MonoBehaviour
 {
     [SerializeField] private List<ItemInfo> itemList;
+    [SerializeField] private Animator enemyAnimator;
+    [SerializeField] private ItemWorld itemWorldPrefab;
+    private bool dead = false;
     private int maxHealth = 100;
     private int currentHealth;
-    [SerializeField] private Animator enemyAnimator;
-    private bool dead = false;
-    [SerializeField] private ItemWorld itemWorldPrefab;
+    public HealthBar healthBar;
 
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
 
     public void takeDamage(int damage)
     {
         currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
 
         if (currentHealth <= 0)
         {
             currentHealth = 0;
             if (!dead)
                 Die();
-
+               Invoke("Dead", 1.5f);
         }
 
         else
@@ -36,6 +39,10 @@ public class EnemyDamageHandler : MonoBehaviour
             //hurt animation
         }
 
+    }
+    void Dead()
+    {
+        Destroy(gameObject);
     }
 
     private void Die()

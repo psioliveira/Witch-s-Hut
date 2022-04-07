@@ -5,8 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public class QuestGoal 
 {
-    public GatherGoal gatherGoal;
-    public string ItemName { get; set; }
+    public GoalType typeGoal;
+    public int EnemyID { get; set; }
     public int requiredAmount;
     public int currentAmount;
 
@@ -15,16 +15,17 @@ public class QuestGoal
         return (currentAmount >= requiredAmount);
     }
 
-    public void ItemCollected()
+    public void EnemyKilled()
     {
-        if (gatherGoal == GatherGoal.Gathering)
+        if (typeGoal == GoalType.Killing)
             currentAmount++;
     }
 }
 
-public enum GatherGoal
+public enum GoalType
 {
-    Gathering
+    Gathering,
+    Killing
 }
 
 
