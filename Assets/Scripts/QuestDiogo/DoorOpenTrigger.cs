@@ -26,6 +26,10 @@ public class DoorOpenTrigger : MonoBehaviour
         if (allDead)
         {
             GetComponent<Animator>().Play("Door 1 Open");
+            GetComponent<Animator>().Play("Door 2");
+            GetComponent<Animator>().Play("Door 3");
+            GetComponent<Animator>().Play("Door 4");
+            GetComponent<Animator>().Play("Door5");
             enabled = false;
         }
     }
