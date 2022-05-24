@@ -1,6 +1,6 @@
 using System.Collections;
 using UnityEngine;
-
+using UnityEngine.AI;
 public class SkeletonAI : MonoBehaviour
 {
     [SerializeField] private Animator myAnim;
@@ -13,8 +13,8 @@ public class SkeletonAI : MonoBehaviour
     private bool dead = false;
     private Vector3 attackPos;
     [SerializeField]private float attackRadius = 1.2f;
-    [SerializeField] private int attackDamage = 10;
-
+    [SerializeField] private int attackDamage;
+    private PatrolAI ai;
 
     // Start is called before the first frame update
     void Start()
