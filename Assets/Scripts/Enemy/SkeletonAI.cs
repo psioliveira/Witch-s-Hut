@@ -12,9 +12,13 @@ public class SkeletonAI : MonoBehaviour
     [SerializeField] private int id;
     private bool dead = false;
     private Vector3 attackPos;
-    [SerializeField]private float attackRadius = 1.2f;
+    [SerializeField] private float attackRadius = 1.2f;
     [SerializeField] private int attackDamage;
     private PatrolAI ai;
+
+    public float cooldown = 1f;
+
+    private float nextAttack = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +30,16 @@ public class SkeletonAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (!dead)
         {
             if (Vector3.Distance(target.position, transform.position) <= attackRange)
             {
-                StartCoroutine(AttackPlayer());
+                if (Time.time > nextAttack)
+                {
+                    StartCoroutine(AttackPlayer());
+                    nextAttack = Time.time + cooldown;
+                }
             }
             else if (Vector3.Distance(target.position, transform.position) <= maxRange && Vector3.Distance(target.position, transform.position) >= minRange)
             {
@@ -46,12 +55,13 @@ public class SkeletonAI : MonoBehaviour
 
     private IEnumerator AttackPlayer()
     {
+        Debug.Log("Attacking Player");
         myAnim.SetBool("Moving", false);
 
         myAnim.SetFloat("MoveX", target.position.x - transform.position.x);
         myAnim.SetFloat("MoveY", target.position.z - transform.position.z);
         attackPos = (transform.position);
-       
+
         myAnim.SetTrigger("Attack");
         Collider[] hitColliders = Physics.OverlapSphere(attackPos, attackRadius);
         foreach (var hitCollider in hitColliders)
@@ -64,7 +74,7 @@ public class SkeletonAI : MonoBehaviour
         }
 
         yield return new WaitForSecondsRealtime(2f);
-        myAnim.ResetTrigger("Attack");
+        //myAnim.ResetTrigger("Attack");
 
         yield return null;
     }
