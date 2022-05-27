@@ -14,7 +14,8 @@ public class SkeletonAI : MonoBehaviour
     private Vector3 attackPos;
     [SerializeField] private float attackRadius = 1.2f;
     [SerializeField] private int attackDamage;
-    private PatrolAI ai;
+    private PatrolAI patrolAI;
+    private NavMeshAgent    navAgent;
 
     public float cooldown = 1f;
 
@@ -25,6 +26,8 @@ public class SkeletonAI : MonoBehaviour
     {
         myAnim = GetComponent<Animator>();
         target = FindObjectOfType<PlayerController>().transform;
+        patrolAI = GetComponent<PatrolAI>();
+        navAgent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -34,23 +37,33 @@ public class SkeletonAI : MonoBehaviour
         if (!dead)
         {
             if (Vector3.Distance(target.position, transform.position) <= attackRange)
-            {
+            {  
                 if (Time.time > nextAttack)
                 {
+                    patrolAI.enabled = false;
+                    navAgent.isStopped = true;
                     StartCoroutine(AttackPlayer());
                     nextAttack = Time.time + cooldown;
                 }
             }
             else if (Vector3.Distance(target.position, transform.position) <= maxRange && Vector3.Distance(target.position, transform.position) >= minRange)
-            {
+            { 
+                patrolAI.enabled = false;
                 FollowPlayer();
             }
             else
-                myAnim.SetBool("Moving", false);
-
+            {
+                patrolAI.enabled = true;
+            }
         }
-
-
+        
+        if (!navAgent.isStopped)
+        {
+            myAnim.SetBool("Moving", true);
+            
+            myAnim.SetFloat("MoveX", navAgent.velocity.x);
+            myAnim.SetFloat("MoveY", navAgent.velocity.z);
+        }
     }
 
     private IEnumerator AttackPlayer()
@@ -58,8 +71,6 @@ public class SkeletonAI : MonoBehaviour
         Debug.Log("Attacking Player");
         myAnim.SetBool("Moving", false);
 
-        myAnim.SetFloat("MoveX", target.position.x - transform.position.x);
-        myAnim.SetFloat("MoveY", target.position.z - transform.position.z);
         attackPos = (transform.position);
 
         myAnim.SetTrigger("Attack");
@@ -81,10 +92,10 @@ public class SkeletonAI : MonoBehaviour
 
     public void FollowPlayer()
     {
-        myAnim.SetBool("Moving", true);
-        myAnim.SetFloat("MoveX", target.position.x - transform.position.x);
-        myAnim.SetFloat("MoveY", target.position.z - transform.position.z);
-        transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
+
+        navAgent.SetDestination(target.transform.position);
+
+        //transform.position = Vector3.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
 
     }
     public void IsDead()

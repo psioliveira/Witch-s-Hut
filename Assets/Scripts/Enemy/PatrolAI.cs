@@ -21,9 +21,13 @@ public class PatrolAI : MonoBehaviour
         {
             IterateIndex();
             UpdateDestination();
-            Move();
         }
     }
+    void OnEnable()
+    {
+        UpdateDestination();
+    }
+
     void UpdateDestination()
     {
         target = waypoints[waypointIndex].position;
@@ -37,8 +41,5 @@ public class PatrolAI : MonoBehaviour
             waypointIndex = 0;
         }
     }
-    void Move()
-    {
-        myAnim.SetBool("Moving", true);
-    }
+
 }
