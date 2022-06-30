@@ -148,7 +148,7 @@ public class PlayerController : MonoBehaviour
             dashStartTime += Time.fixedDeltaTime;
         }
         yield return null;
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(0.3f);
         dashTriggered = false;
         unableToMove = false;
         hasDashed = false;
@@ -178,7 +178,7 @@ public class PlayerController : MonoBehaviour
 
         }
 
-        yield return new WaitForSecondsRealtime(.3f);
+        yield return new WaitForSecondsRealtime(0.7f);
         hasDashed = false;
         unableToMove = false;
         yield return null;
