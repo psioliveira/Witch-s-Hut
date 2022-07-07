@@ -1,10 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DoorOpenTrigger : MonoBehaviour
 {
     [SerializeField] private List<EnemyDamageHandler> enemies;
+    public GameObject prefab;
+    public Transform spawnPosition;
+
+    public GameObject win;
 
     // Update is called once per frame
     void Update()
@@ -25,6 +30,10 @@ public class DoorOpenTrigger : MonoBehaviour
 
         if (allDead)
         {
+            win.SetActive(true);
+            Instantiate(prefab, spawnPosition.position, spawnPosition.rotation); 
+            
+            GetComponent<Animator>().Play("Door message 1");
             GetComponent<Animator>().Play("Door 1 Open");
             GetComponent<Animator>().Play("Door 2");
             GetComponent<Animator>().Play("Door 3");
@@ -32,6 +41,9 @@ public class DoorOpenTrigger : MonoBehaviour
             GetComponent<Animator>().Play("Door5");
             GetComponent<Animator>().Play("Door 6");
             enabled = false;
+
+            
+            
         }
     }
 }

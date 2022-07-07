@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class EnemyDamageHandler : MonoBehaviour
 {
-    [SerializeField] private List<ItemInfo> itemList;
+    //[SerializeField] private List<ItemInfo> itemList;
     [SerializeField] private Animator enemyAnimator;
-    [SerializeField] private ItemWorld itemWorldPrefab;
+    //[SerializeField] private ItemWorld itemWorldPrefab;
     private bool dead = false;
     private int maxHealth = 100;
     private int currentHealth;
@@ -50,9 +50,6 @@ public class EnemyDamageHandler : MonoBehaviour
         enemyAnimator.SetBool("Die", true);
         dead = true;
 
-        Instantiate(itemWorldPrefab, transform.position, Quaternion.identity).
-            GetComponent<ItemWorld>().
-            SetItem(itemList[UnityEngine.Random.Range(0, itemList.Count)]);
         GetComponent<SkeletonAI>().IsDead();
         this.GetComponent<Collider>().enabled = false;
         this.GetComponent<Rigidbody>().isKinematic = true;

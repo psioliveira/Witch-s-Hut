@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
 {
+   
     public float  health;
     public Slider slider;
     public Gradient gradient;
@@ -31,4 +30,6 @@ public class HealthBar : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    
 }

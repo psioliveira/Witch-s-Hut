@@ -15,7 +15,7 @@ public class SkeletonAI : MonoBehaviour
     [SerializeField] private float attackRadius = 1.2f;
     [SerializeField] private int attackDamage;
     private PatrolAI patrolAI;
-    private NavMeshAgent    navAgent;
+    private NavMeshAgent navAgent;
 
     public float cooldown = 1f;
 

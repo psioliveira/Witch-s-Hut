@@ -3,15 +3,17 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-class PlayerDamageHandler : MonoBehaviour
+public class PlayerDamageHandler : MonoBehaviour
 {
     public HealthBar healthBar;
-    private int maxHealth = 100;
-    private int currentHealth;
+    public int maxHealth = 100;
+    public int currentHealth;
     [SerializeField] private Animator playerAnimator;
     private bool dead = false;
     private bool invincible = false;
 
+    public GameObject death;
+    
     void Start()
     {
         currentHealth = maxHealth;
@@ -35,7 +37,8 @@ class PlayerDamageHandler : MonoBehaviour
                 {
                     Die();  
                 }
-                Invoke("Restart", 2f);
+                death.SetActive(true);
+                //Invoke("Restart", 2f);
             }
 
             else

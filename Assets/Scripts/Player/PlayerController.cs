@@ -5,7 +5,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    public Quest quest;
     private PlayerControls playerControl;
 
     [SerializeField] private float playerSpeed = 30;
@@ -68,13 +67,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void GoKill()
+    /*public void GoKill()
     {
         if (quest.isActive)
         {
             quest.goal.EnemyKilled();
         }
-    }
+    }*/
 
     private void UpdateAnimatorVariables()
     {
@@ -171,11 +170,6 @@ public class PlayerController : MonoBehaviour
             {
                 hitCollider.transform.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
             }
-            if (hitCollider.tag == "Ore")
-            {
-                hitCollider.transform.GetComponent<OreHandler>().takeDamage(attackDamage);
-            }
-
         }
 
         yield return new WaitForSecondsRealtime(0.7f);
