@@ -9,6 +9,7 @@ public class PlayerDamageHandler : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     [SerializeField] private Animator playerAnimator;
+    [SerializeField] private AudioSource deathSound;
     private bool dead = false;
     private bool invincible = false;
 
@@ -62,6 +63,7 @@ public class PlayerDamageHandler : MonoBehaviour
 
     private void Die()
     {
+        deathSound.Play();
         playerAnimator.SetBool("Die", true);
         dead = true;
         GetComponent<PlayerController>().IsDead();

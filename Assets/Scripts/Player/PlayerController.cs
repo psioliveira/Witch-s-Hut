@@ -21,7 +21,8 @@ public class PlayerController : MonoBehaviour
     private bool attackTriggered;
 
     [SerializeField] private int attackDamage = 10;
-
+    [SerializeField] private AudioSource walkSound;
+    [SerializeField] private AudioSource attackSound;
 
     private Animator playerAnimator;
     [SerializeField] private CharacterController controller;
@@ -91,9 +92,11 @@ public class PlayerController : MonoBehaviour
     }
     public void OnAttack(InputAction.CallbackContext ctx)
     {
+        
         if (!dead && !PauseManage.paused && ctx.started && !unableToMove && !dashTriggered)
         {
             StartCoroutine(Attack());
+            attackSound.Play();
         }
     }
 
@@ -115,17 +118,28 @@ public class PlayerController : MonoBehaviour
             playerVelocity.y = 0f;
         }
         if (rawInput.x != 0 || rawInput.z != 0)
-        {
+        {  
             playerDirection = rawInput;
             attackPos = transform.position + rawInput;
             attackPos = new Vector3(attackPos.x, transform.position.y / 2, attackPos.z);
             controller.Move(rawInput * Time.fixedDeltaTime * playerSpeed);
-            if (!unableToMove) playerAnimator.SetBool("Moving", true);
-            else { playerAnimator.SetBool("Moving", false); }
+            
+            if (!unableToMove) 
+            {
+                playerAnimator.SetBool("Moving", true);
+            }
+            
+            else 
+            { 
+                playerAnimator.SetBool("Moving", false);
+            }
         }
-        else { playerAnimator.SetBool("Moving", false); }
-
-
+        else 
+        { 
+            playerAnimator.SetBool("Moving", false); 
+        }
+    
+        
         playerVelocity.y += gravityValue * Time.fixedDeltaTime;
         controller.Move(playerVelocity * Time.fixedDeltaTime);
     }

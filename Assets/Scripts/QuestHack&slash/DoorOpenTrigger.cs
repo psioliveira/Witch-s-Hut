@@ -9,7 +9,7 @@ public class DoorOpenTrigger : MonoBehaviour
     public GameObject prefab;
     public Transform spawnPosition;
 
-    public GameObject win;
+    //public GameObject win;
 
     // Update is called once per frame
     void Update()
@@ -30,7 +30,7 @@ public class DoorOpenTrigger : MonoBehaviour
 
         if (allDead)
         {
-            win.SetActive(true);
+            //win.SetActive(true);
             Instantiate(prefab, spawnPosition.position, spawnPosition.rotation); 
             
             GetComponent<Animator>().Play("Door message 1");
@@ -40,6 +40,7 @@ public class DoorOpenTrigger : MonoBehaviour
             GetComponent<Animator>().Play("Door 4");
             GetComponent<Animator>().Play("Door5");
             GetComponent<Animator>().Play("Door 6");
+            GetComponent<Animator>().Play("Door 7");
             enabled = false;
 
             

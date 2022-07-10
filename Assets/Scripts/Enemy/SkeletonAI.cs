@@ -16,6 +16,7 @@ public class SkeletonAI : MonoBehaviour
     [SerializeField] private int attackDamage;
     private PatrolAI patrolAI;
     private NavMeshAgent navAgent;
+    [SerializeField] private AudioSource enemyAttackSound;
 
     public float cooldown = 1f;
 
@@ -40,19 +41,24 @@ public class SkeletonAI : MonoBehaviour
             {  
                 if (Time.time > nextAttack)
                 {
+                    
                     patrolAI.enabled = false;
                     navAgent.isStopped = true;
                     StartCoroutine(AttackPlayer());
+                    enemyAttackSound.Play();
                     nextAttack = Time.time + cooldown;
                 }
             }
             else if (Vector3.Distance(target.position, transform.position) <= maxRange && Vector3.Distance(target.position, transform.position) >= minRange)
             { 
+                Debug.Log("patrol off");
                 patrolAI.enabled = false;
                 FollowPlayer();
             }
             else
             {
+                //Debug.Log("patrol on");
+                navAgent.isStopped = false;
                 patrolAI.enabled = true;
             }
         }

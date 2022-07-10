@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour
     private float timeRemaining;
     public bool timerIsRunning = false;
     public TextMeshProUGUI timeText;
+    public GameObject death;
 
     private void Start()
     {
@@ -26,9 +27,11 @@ public class Timer : MonoBehaviour
             }
             else
             {
+                death.SetActive(true);
                 Debug.Log("Time has run out!");
                 timeRemaining = 0;
                 StopTimer();
+                Time.timeScale = 0;
             }
         }
     }

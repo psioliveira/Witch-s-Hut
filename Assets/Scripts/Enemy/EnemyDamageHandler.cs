@@ -12,6 +12,7 @@ public class EnemyDamageHandler : MonoBehaviour
     private int maxHealth = 100;
     private int currentHealth;
     public HealthBar healthBar;
+    [SerializeField] private AudioSource enemyDeathSound;
 
     void Start()
     {
@@ -47,6 +48,7 @@ public class EnemyDamageHandler : MonoBehaviour
 
     private void Die()
     {
+        enemyDeathSound.Play();
         enemyAnimator.SetBool("Die", true);
         dead = true;
 

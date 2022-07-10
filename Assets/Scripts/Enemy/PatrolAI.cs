@@ -5,11 +5,11 @@ using UnityEngine.AI;
 
 public class PatrolAI : MonoBehaviour
 {
-    [SerializeField] private Animator myAnim;
     NavMeshAgent agent;
     public Transform[] waypoints;
     int waypointIndex;
     Vector3 target;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -23,11 +23,6 @@ public class PatrolAI : MonoBehaviour
             UpdateDestination();
         }
     }
-    void OnEnable()
-    {
-        UpdateDestination();
-    }
-
     void UpdateDestination()
     {
         target = waypoints[waypointIndex].position;
