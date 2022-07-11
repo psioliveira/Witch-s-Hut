@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGame Miguel dungeon.unity
     guid: c65a1ee02a40d424b934168d4d043456
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainGame Miguel Forest.unity
     guid: e0d7c1c7b6a74db4fb4de0ab4b858c6c
   m_configObjects: {}

@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthPickup : MonoBehaviour
 {
     PlayerDamageHandler playerHealth;
-    HealthBar slider;
-    public int healthBonus = 5;
+    public HealthBar slider;
+    public int healthBonus;
     [SerializeField] private AudioSource healthPickup;
 
     void Awake()
