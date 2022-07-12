@@ -4,37 +4,7 @@ using UnityEngine;
 
 public class KnockBack : MonoBehaviour
 {
-    public float range = 3f;
-    public float KnockbackForce = 500;
-    
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            ShootRaycast();
-        }
-    }
-
-    void ShootRaycast()
-    {
-        RaycastHit hit;
-        if(Physics.Raycast(transform.position, transform.forward, out hit, range))
-        {
-            EnemyDamageHandler target = hit.transform.GetComponent<EnemyDamageHandler>();
-            if(target != null)
-            {
-                Knockback();
-            }
-        }
-    }
-
-    void Knockback()
-    {
-        transform.position -= transform.forward * Time.deltaTime * KnockbackForce;
-    }
-    /*public float thrust;
+    public float thrust;
     public float knockTime;
 
     private void OnTriggerEnter(Collider other)
@@ -60,5 +30,5 @@ public class KnockBack : MonoBehaviour
             enemy.velocity = Vector3.zero;
             enemy.isKinematic = true;
         }
-    }*/
+    }
 }

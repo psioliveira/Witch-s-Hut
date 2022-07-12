@@ -5,23 +5,25 @@ using UnityEngine;
 
 public class EnemyDamageHandler : MonoBehaviour
 {
-    //[SerializeField] private List<ItemInfo> itemList;
     [SerializeField] private Animator enemyAnimator;
-    //[SerializeField] private ItemWorld itemWorldPrefab;
     private bool dead = false;
-    private int maxHealth = 100;
+    public int maxHealth;
     private int currentHealth;
     public HealthBar healthBar;
     [SerializeField] private AudioSource enemyDeathSound;
+    [SerializeField] private Rigidbody rigidbody;
+    [SerializeField] private float forceBack;
+     
 
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        rigidbody = GetComponent<Rigidbody>();
     }
 
 
-    public void takeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
@@ -33,11 +35,11 @@ public class EnemyDamageHandler : MonoBehaviour
                 Die();
                Invoke("Dead", 1.5f);
         }
-
         else
         {
             enemyAnimator.SetTrigger("Hurt");
-            //hurt animation
+            rigidbody.AddForce(forceBack,0,forceBack, ForceMode.Impulse);
+           
         }
 
     }

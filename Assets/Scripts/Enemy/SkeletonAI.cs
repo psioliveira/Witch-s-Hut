@@ -85,7 +85,7 @@ public class SkeletonAI : MonoBehaviour
         {
             if (hitCollider.tag == "Player")
             {
-                hitCollider.transform.GetComponent<PlayerDamageHandler>().takeDamage(attackDamage);
+                hitCollider.transform.GetComponent<PlayerDamageHandler>().TakeDamage(attackDamage);
             }
 
         }

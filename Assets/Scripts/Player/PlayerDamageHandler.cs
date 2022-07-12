@@ -22,7 +22,7 @@ public class PlayerDamageHandler : MonoBehaviour
     }
 
 
-    public void takeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         if (!invincible)
         {

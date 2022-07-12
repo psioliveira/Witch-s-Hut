@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
     private bool attackTriggered;
 
     [SerializeField] private int attackDamage = 10;
-    [SerializeField] private AudioSource walkSound;
     [SerializeField] private AudioSource attackSound;
 
     private Animator playerAnimator;
@@ -67,14 +66,6 @@ public class PlayerController : MonoBehaviour
             PlayerMovement();
         }
     }
-
-    /*public void GoKill()
-    {
-        if (quest.isActive)
-        {
-            quest.goal.EnemyKilled();
-        }
-    }*/
 
     private void UpdateAnimatorVariables()
     {
@@ -182,7 +173,7 @@ public class PlayerController : MonoBehaviour
         {
             if (hitCollider.tag == "Enemy")
             {
-                hitCollider.transform.GetComponent<EnemyDamageHandler>().takeDamage(attackDamage);
+                hitCollider.transform.GetComponent<EnemyDamageHandler>().TakeDamage(attackDamage);
             }
         }
 
