@@ -38,7 +38,9 @@ public class EnemyDamageHandler : MonoBehaviour
         else
         {
             enemyAnimator.SetTrigger("Hurt");
-            rigidbody.AddForce(forceBack,0,forceBack, ForceMode.Impulse);
+            Vector3 difference = rigidbody.transform.position - transform.position;
+            difference = difference.normalized * forceBack;
+            rigidbody.AddForce(difference, ForceMode.Impulse);
            
         }
 
