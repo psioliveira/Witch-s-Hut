@@ -55,7 +55,7 @@ public class SkeletonAI : MonoBehaviour
                 patrolAI.enabled = false;
                 FollowPlayer();
             }
-            else
+           else if(Vector3.Distance(target.position, transform.position) > maxRange)
             {
                 //Debug.Log("patrol on");
                 navAgent.isStopped = false;

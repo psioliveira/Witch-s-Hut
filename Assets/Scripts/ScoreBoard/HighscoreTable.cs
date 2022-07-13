@@ -102,8 +102,7 @@ public class HighscoreTable : MonoBehaviour
         public List<HighscoreEntry> highscoreEntryList;
     }
 
-   [System.Serializable]
-    private class HighscoreEntry
+    [System.Serializable] private class HighscoreEntry
     {
         public int score;
         public string name;

@@ -13,6 +13,7 @@ public class EnemyDamageHandler : MonoBehaviour
     [SerializeField] private AudioSource enemyDeathSound;
     [SerializeField] private Rigidbody rigidbody;
     [SerializeField] private float forceBack;
+    [SerializeField] private GameObject player;
      
 
     void Start()
@@ -20,6 +21,7 @@ public class EnemyDamageHandler : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         rigidbody = GetComponent<Rigidbody>();
+        player = GameObject.Find("player");
     }
 
 
@@ -38,9 +40,10 @@ public class EnemyDamageHandler : MonoBehaviour
         else
         {
             enemyAnimator.SetTrigger("Hurt");
-            Vector3 difference = rigidbody.transform.position - transform.position;
-            difference = difference.normalized * forceBack;
+            Vector3 difference = (this.gameObject.transform.position - player.gameObject.transform.position).normalized;
+            difference = difference * forceBack;
             rigidbody.AddForce(difference, ForceMode.Impulse);
+            Debug.Log("knockback");
            
         }
 

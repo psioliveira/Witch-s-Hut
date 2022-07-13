@@ -41,6 +41,7 @@ public class DoorOpenTrigger : MonoBehaviour
             GetComponent<Animator>().Play("Door5");
             GetComponent<Animator>().Play("Door 6");
             GetComponent<Animator>().Play("Door 7");
+            GetComponent<Animator>().Play("Door 8");
             enabled = false;
 
             
